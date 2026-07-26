@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mdls -name kMDItemNumberOfPages UG_Semester_Schedule_2026_01.pdf timetable.pdf)",
+      "Bash(curl -sL \"https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/\" -o /private/tmp/claude-501/-Users-somadhavala-work-iitjmu-acad-courses-CS-1-01-MO-F26-DHAVALA/de98768f-69af-49d6-ac0f-88525ae50135/scratchpad/kuleshov.html)",
+      "Bash(curl -sL \"https://iitjammu.ac.in\" -o /private/tmp/claude-501/-Users-somadhavala-work-iitjmu-acad-courses-CS-1-01-MO-F26-DHAVALA/de98768f-69af-49d6-ac0f-88525ae50135/scratchpad/iitjammu.html)",
+      "Bash(curl -sL https://www.cse.iitm.ac.in/~shwetaag/CS1100.html -o /private/tmp/claude-501/-Users-somadhavala-work-iitjmu-acad-courses-CS-1-01-MO-F26-DHAVALA/de98768f-69af-49d6-ac0f-88525ae50135/scratchpad/cs1100.html)",
+      "Bash(python3 *)"
+    ]
+  }
+}

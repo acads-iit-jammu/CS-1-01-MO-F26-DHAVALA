@@ -1,0 +1,41 @@
+# CS1100 Lectures (IIT Madras) {.unnumbered}
+
+These lecture slides are from **CS1100: Introduction to Programming**, taught by **Prof. Shweta Agrawal** at IIT Madras (Trimester 3, April–June 2021). They are mirrored here, and adapted where needed, for use in CS-1-01 (MO) at IIT Jammu.
+
+::: {.callout-note title="Acknowledgement"}
+We are deeply grateful to **Prof. Shweta Agrawal** and the **Department of Computer Science & Engineering, IIT Madras**, for generously permitting the reuse and modification of this material. The original course page is [here](https://www.cse.iitm.ac.in/~shwetaag/CS1100.html).
+:::
+
+| Lecture | Topic | Slides |
+|:---:|---|:---:|
+| 1 | Introduction to Programming | [PDF](slides/Lec1.pdf) |
+| 2 | More on Turtle | [PDF](slides/Lec2.pdf) |
+| 3 | The Computing Machine | [PDF](slides/Lec3.pdf) |
+| 4 | Our first C program. Basic data types, operators, keywords in C | [PDF](slides/Lec4.pdf) |
+| 5 | More details: operators, `scanf`, `printf`, `sizeof`, ranges of different data types | [PDF](slides/Lec5.pdf) |
+| 6 | Execution of programs, compilers | [PDF](slides/Lec6.pdf) |
+| 7 | Modifying control flow. Arithmetic, relational and logical operators; precedence and associativity; single selection (`if`) | [PDF](slides/Lec7.pdf) |
+| 8 | Multiple selection (`switch`). More examples of `if-then-else` | [PDF](slides/Lec8.pdf) |
+| 9 | First loop construct: `while` | [PDF](slides/Lec9.pdf) |
+| 12 | `for` loop: syntax, semantics, `continue`, examples | [PDF](slides/Lec12.pdf) |
+| 13 | Example problems: mini calculator | [PDF](slides/Lec13.pdf) |
+| 14 | More loop examples: primality testing, primes in an interval, minimum, GCD | [PDF](slides/Lec14.pdf) |
+| 15 | Introduction to arrays; integer and character arrays; histogram of marks; evaluating a polynomial | [PDF](slides/Lec15.pdf) |
+| 16 | Revision of loops: printing patterns, first k primes, prime factorization, staircase of numbers, approximate square roots | [PDF](slides/Lec16.pdf) |
+| 17 | Character arrays: string length, comparing strings, palindromes; multi-dimensional arrays | [PDF](slides/Lec17.pdf) |
+| 18 | Character arrays and standard library support; matrix operations: addition, multiplication, transpose; character grids; reversing an array | [PDF](slides/Lec18.pdf) |
+| 19 | More on character grids; introduction to functions; blocks and scope of variables | [PDF](slides/Lec19.pdf) |
+| 20 | More functions: factorial, sums, co-primeness, matrix multiplication, primes, swapping, binary-to-decimal, Tic-Tac-Toe | [PDF](slides/Lec20.pdf) |
+| 21 | Tic-Tac-Toe; macros; enumerated constants; three-dimensional arrays | [PDF](slides/Lec21.pdf) |
+| 24 | Recursive functions: factorial, binomial coefficient, Virahanka/Fibonacci numbers, largest element in an array | [PDF](slides/Lec24.pdf) |
+| 25 | Searching: linear and binary search | [PDF](slides/Lec25.pdf) |
+| 26 | More on recursive functions — finding max recursively; binary search; introduction to sorting | [PDF](slides/Lec26.pdf) |
+| 27 | Sorting: selection and insertion sort, overview of merge sort; introduction to pointers | [PDF](slides/Lec27.pdf) |
+| 28 | More on pointers | [PDF](slides/Lec28.pdf) |
+| 29 | Introduction to structures | [PDF](slides/Lec29.pdf) |
+| 30 | More on structures | [PDF](slides/Lec30.pdf) |
+| — | Course wrap-up: summary and takeaways | [PDF](slides/wrapping-up.pdf) |
+
+: {tbl-colwidths="[10,75,15]"}
+
+*(Lectures 10, 11, 22, 23 in the original course were revision/quiz sessions with no slides; lecture numbering is preserved from the original site.)*

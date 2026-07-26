@@ -1,0 +1,33 @@
+# Welcome {.unnumbered}
+
+Welcome to **CS-1-01 (MO): Computer System and Programming** (course number EFL001U1M), Monsoon 2026 (2026-01), Indian Institute of Technology Jammu.
+
+This site hosts the course pages for the sections taught by **Soma S Dhavala** — covering the **Electrical**, **Mechanical**, and **Materials** Engineering branches.
+
+## At a Glance
+
+| | |
+|---|---|
+| **Course** | CS-1-01 (MO) · Computer System and Programming |
+| **Credits** | 2 (2-0-0) Lectures + 1 (0-0-2) Computer Lab |
+| **Lectures** | Monday & Tuesday, 8:00–8:50 am · **12LH3004** |
+| **Lab (EE)** | Tuesday, 2:00–4:00 pm |
+| **Lab (Mech & Materials)** | Wednesday, 2:00–4:00 pm |
+| **First Class** | Monday, August 3, 2026 |
+| **Instructor** | Soma S Dhavala |
+
+: {tbl-colwidths="[30,70]"}
+
+See the [Course](./course.qmd) page for the week-by-week plan, and the [Labs](./labs.qmd) page for the lab schedule.
+
+## Announcements
+
+- [26-July-2026] Course website is live.
+- [26-July-2026] Classes commence **Monday, August 3, 2026, 8:00 am**, in 12LH3004.
+
+## Acknowledgements
+
+Parts of this course reuse and adapt material, with gratitude:
+
+- **Prof. Shweta Agrawal** and the **Department of Computer Science & Engineering, IIT Madras**, for generously allowing the reuse/adaptation of the [CS1100: Introduction to Programming](https://www.cse.iitm.ac.in/~shwetaag/CS1100.html) lecture material. See the [reference lectures](./cs1100-cse-iitm-2021/index.qmd).
+- **MIT OpenCourseWare**, [6.087 Practical Programming in C (IAP 2010)](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/), used under CC BY-NC-SA.

@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: _site
+  resources:
+    - cs1100-cse-iitm-2021/slides/
+
+book:
+  title: "CS-1-01 (MO)"
+  subtitle: "Computer System and Programming · Monsoon 2026"
+  author: "Soma S Dhavala · IIT Jammu"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      CS-1-01 (MO) · Computer System and Programming · Monsoon 2026 (2026-01) · IIT Jammu
+    right: |
+      Built with <a href="https://quarto.org/">Quarto</a>.
+
+  site-url: https://acads-iit-jammu.github.io/CS-1-01-MO-F26-DHAVALA
+  repo-url: https://github.com/acads-iit-jammu/CS-1-01-MO-F26-DHAVALA
+  repo-branch: main
+
+  chapters:
+    - index.qmd
+    - course.qmd
+    - syllabus.qmd
+    - labs.qmd
+    - part: "Reference Material"
+      chapters:
+        - cs1100-cse-iitm-2021/index.qmd
+        - resources.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - iitjammu.scss
+    callout-appearance: simple
+    number-sections: false
+    link-external-newwindow: true
+
+editor: source

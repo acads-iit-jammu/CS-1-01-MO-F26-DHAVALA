@@ -1,0 +1,42 @@
+# Labs {.unnumbered}
+
+The Computer Lab (Slot FL, 1 credit, 0-0-2) runs for two hours each week:
+
+| Branch | Day | Time |
+|---|---|---|
+| Electrical | Tuesday | 2:00–4:00 pm |
+| Mechanical | Wednesday | 2:00–4:00 pm |
+| Materials | Wednesday | 2:00–4:00 pm |
+
+Bring your laptop if you have one. You can also work in the browser with [OnlineGDB](https://www.onlinegdb.com/online_c_compiler) — no installation needed. We will show you how to set up a local C toolchain (gcc/clang) in the first lab.
+
+## Lab Schedule
+
+The schedule below is **tentative**; topics track the lectures and cover all practical modules of the [syllabus](./syllabus.qmd). Because institute holidays fall on different weekdays, the Tuesday (EE) and Wednesday (Mech/Materials) batches drift by a week in places — go by the *session number*, not the date.
+
+| # | EE (Tue) | Mech & Materials (Wed) | Topic |
+|:---:|---|---|---|
+| 1 | Aug 4 | Aug 5 | Getting started: toolchain, editor, first C program |
+| 2 | Aug 11 | Aug 12 | Basic input/output programs |
+| 3 | Aug 18 | Aug 19 | Expressions, operators, and number-system practice |
+| 4 | Aug 25 | Sep 2 | Conditional statements |
+| 5 | Sep 1 | Sep 9 | `for` loops |
+| 6 | Sep 8 | Sep 16 | `while` and `do-while` loops |
+| 7 | Sep 15 | Sep 30 | Arrays, lists, and strings |
+| 8 | Sep 29 | Oct 7 | Using libraries (`string.h`, `math.h`, etc.) |
+| 9 | Oct 6 | Oct 14 | Functions and recursion |
+| 10 | Oct 13 | Oct 21 | Aggregate data: structures and unions (tuples & dictionaries, C-style) |
+| 11 | Oct 27 | Oct 28 | File handling |
+| 12 | Nov 3 | Nov 4 | Error handling |
+| 13 | Nov 17 | Nov 18 | Problem solving (GATE / ACM ICPC style) |
+
+: {tbl-colwidths="[6,15,22,57]"}
+
+**No lab on:** Wed Aug 26 (Milad-un-Nabi), Tue Sep 22 & Wed Sep 23 (mid-semester exams), Tue Oct 20 (Dussehra), Tue Nov 10 & Wed Nov 11 (holidays).
+
+## Useful Tools
+
+- [OnlineGDB C compiler](https://www.onlinegdb.com/online_c_compiler) — write, run, and debug in the browser.
+- [C Tutor (pythontutor.com)](https://pythontutor.com/c.html) — visualize the step-by-step execution of C programs.
+- [Search & sort visualizations](https://www.cs.usfca.edu/~galles/visualization/Search.html) — see linear vs. binary search in action.
+- MIT OCW 6.087 [labs and assignments](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/assignments/) — extra practice problems with solutions.

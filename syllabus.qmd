@@ -1,0 +1,80 @@
+# Syllabus {.unnumbered}
+
+This page reproduces the official course template for **CS-1-01 (MO) / EFL001U1M — Computers and Programming** (called *Computer System and Programming* in the timetable). The course is an Institute Core (Engineering Foundations) for all B.Tech. programmes.
+
+## Basic Information
+
+| | |
+|---|---|
+| **Proposing Department** | Computer Science Engineering |
+| **Course Title** | Computers and Programming |
+| **L-D-P Structure** | 2-0-2 |
+| **Credits** | 3 (L + 0 + P/2) |
+| **Course Number** | EFL001U1M / CS-1-01 (MO) |
+| **Category** | Institute Core – Engineering Foundations (all UG programmes) |
+| **Prerequisites** | None |
+| **Frequency** | Once every year |
+
+: {tbl-colwidths="[35,65]"}
+
+## Course Objectives
+
+This course leads the students to understand the need of programming in various disciplines, basic concepts of algorithm, the process of computational problem solving in an efficient manner, how to write simple programs using C, pointers, dynamic memory allocation, arrays, functions, recursions, file handling and error handling, and basic concepts of modularity.
+
+## Course Outcomes
+
+At the end of the course students will be able to:
+
+1. Implement a given algorithm in C by using standard programming constructs such as pointers, arrays, repetitions, functions, modules, aggregated data (arrays, lists, etc.).
+2. Explain the output of a given C program, and identify and correct errors in a given C program (debug).
+3. Write simple programs to solve math problems using the C programming language.
+
+## Course Contents
+
+Basic information about the computer; number systems and arithmetic; C program structure; programming types; compiler, interpreter; syntax of the C programming language; data types; operators and operator precedence; conditional statements; iterative statements (`for`, `while`, `do-while`); pointers; dynamic memory allocation; arrays; functions; string processing; file handling; error handling; header files; structures and unions in C.
+
+### Detailed Lecture Contents (28 hours)
+
+| Topic | Hours |
+|---|:---:|
+| Introduction: Introduction to Computer Science; Computer Algorithms; Computer Hardware; Computer Software | 2 |
+| Number systems, conversions, and arithmetic | 4 |
+| Programming types (declarative, imperative); C program structure (source files, assembly files, object files, linker, loader); compiler, interpreter | 4 |
+| Data and expressions: literals, variables and identifiers, operators, expressions and data types; control structures: boolean expressions, selection control, iterative control | 5 |
+| Pointers (pointer variables); arrays; dynamic memory allocation (`malloc`, `calloc`, `realloc`); functions and recursive functions | 8 |
+| Function pointers; structure, union; file handling; error handling | 3 |
+| Problem solving sessions | 1 |
+| Applications; brief of object-oriented programming | 1 |
+| **Total lecture hours** | **28** |
+
+: {tbl-colwidths="[85,15]"}
+
+### Practical / Practice Activities (28 hours)
+
+| Module | Description | Hours |
+|:---:|---|:---:|
+| 1 | Writing basic input/output programs | 2 |
+| 2 | Writing programs related to conditional statements | 2 |
+| 3 | Writing programs related to lists and strings | 2 |
+| 4 | Writing programs related to tuples and dictionaries | 2 |
+| 5 | Writing programs using `for` loops | 2 |
+| 6 | Writing programs using `while` and `do-while` loops | 2 |
+| 7 | Writing programs using functions and recursion | 2 |
+| 8 | Writing programs related to file handling | 2 |
+| 9 | Writing programs related to error handling | 2 |
+| 10 | Writing programs using libraries (`string`, `math`, etc.) in C | 2 |
+| 11 | Problem solving (GATE, ACM ICPC) | 8 |
+| | **Total practical hours** | **28** |
+
+: {tbl-colwidths="[12,73,15]"}
+
+## Texts and References
+
+1. Kernighan, Brian, and Dennis Ritchie. *The C Programming Language*. 2nd ed. Upper Saddle River, NJ: Prentice Hall, 1988. ISBN: 9780131103627.
+2. Robert W. Sebesta. *Concepts of Programming Languages*. Pearson Education, 2019.
+3. Richard Johnsonbaugh and Martin Kalin. *Object-Oriented Programming in C++*. Macmillan USA, 1994.
+
+**Online resources**
+
+- Online C compiler: [onlinegdb.com/online_c_compiler](https://www.onlinegdb.com/online_c_compiler)
+- MIT OCW: [6.087 Practical Programming in C (IAP 2010)](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/)

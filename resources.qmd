@@ -1,0 +1,35 @@
+# Resources {.unnumbered}
+
+## Textbooks
+
+1. Kernighan, Brian, and Dennis Ritchie. *The C Programming Language*. 2nd ed. Prentice Hall, 1988. ISBN: 9780131103627. — **the** classic; strongly recommended.
+2. Robert W. Sebesta. *Concepts of Programming Languages*. Pearson Education, 2019.
+3. Richard Johnsonbaugh and Martin Kalin. *Object-Oriented Programming in C++*. Macmillan USA, 1994.
+
+## Online Material
+
+### MIT OCW 6.087: Practical Programming in C
+
+[MIT OpenCourseWare 6.087 (IAP 2010)](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/) is an excellent, compact companion to this course, with full lecture notes, labs, and assignments (with solutions):
+
+- [Lecture notes](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/lecture-notes/)
+- [Labs](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/labs/)
+- [Assignments](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/pages/assignments/)
+
+*Courtesy of MIT OpenCourseWare; used under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
+
+### CS1100: Introduction to Programming (IIT Madras)
+
+Lecture slides from Prof. Shweta Agrawal's CS1100 are mirrored on the [CS1100 lectures page](./cs1100-cse-iitm-2021/index.qmd), reused with permission from Prof. Agrawal and the CSE Department, IIT Madras.
+
+## Tools
+
+| Tool | What for |
+|---|---|
+| [OnlineGDB](https://www.onlinegdb.com/online_c_compiler) | Write, compile, run, and debug C in the browser |
+| [C Tutor](https://pythontutor.com/c.html) | Step-by-step visualization of C program execution |
+| [Compiler Explorer](https://godbolt.org/) | See the assembly your C compiles to |
+| [USFCA visualizations](https://www.cs.usfca.edu/~galles/visualization/Search.html) | Animated searching/sorting algorithms |
+| gcc / clang | Local compilers — setup covered in Lab 1 |
+
+: {tbl-colwidths="[30,70]"}
