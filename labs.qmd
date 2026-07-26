@@ -10,6 +10,8 @@ The Computer Lab (Slot FL, 1 credit, 0-0-2) runs for two hours each week:
 
 Bring your laptop if you have one. You can also work in the browser with [OnlineGDB](https://www.onlinegdb.com/online_c_compiler) — no installation needed. We will show you how to set up a local C toolchain (gcc/clang) in the first lab.
 
+**Evaluation:** regular lab work counts for **20%** of the course grade (see [Assessment](./course.qmd#assessment)). Lab 1 is a setup session and is not graded; every lab from Lab 2 onwards is evaluated with equal weight.
+
 ## Lab Schedule
 
 The schedule below is **tentative** and covers all 11 practical modules of the [syllabus](./syllabus.qmd) (the *module* column refers to the syllabus practical table). Lab handouts are **self-contained**: where a lab reaches a construct before its full lecture treatment, the handout introduces just enough of it to do the exercises. Because institute holidays fall on different weekdays, the Tuesday (EE) and Wednesday (Mech/Materials) batches drift by a week in places — go by the *session number*, not the date.

@@ -35,7 +35,20 @@ From the [IIT Jammu academic calendar for 1^st^ year UG students, Semester 2026-
 
 ## Assessment
 
-Weights of assignments/labs, class tests, mid-semester, and end-semester examinations will be announced in the first week of classes.
+| Component | Weight |
+|---|:---:|
+| Class Test-1 | 10% |
+| Class Test-2 | 10% |
+| Mid-Semester Examination | 20% |
+| End-Semester Examination | 30% |
+| Hackathon | 10% |
+| Regular lab evaluation | 20% |
+| **Total** | **100%** |
+
+: {tbl-colwidths="[70,30]"}
+
+- **Lab evaluation:** Lab 1 (setup) is not graded. Labs 2 onwards carry equal weight, totalling 20%.
+- **Hackathon:** details (format and date) will be announced in class and on this page.
 
 ## Weekly Plan (Lectures)
 
