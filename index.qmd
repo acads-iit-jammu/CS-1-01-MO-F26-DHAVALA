@@ -2,7 +2,7 @@
 
 Welcome to **CS-1-01 (MO): Computer System and Programming** (course number EFL001U1M), Monsoon 2026 (2026-01), Indian Institute of Technology Jammu.
 
-This site hosts the course pages for the sections taught by **Soma S Dhavala** — covering the **Electrical**, **Mechanical**, and **Materials** Engineering branches.
+This site hosts the course pages for the sections taught by **[Soma S Dhavala](https://dhavala.github.io/)** — covering the **Electrical**, **Mechanical**, and **Materials** Engineering branches.
 
 ## At a Glance
 
@@ -14,7 +14,7 @@ This site hosts the course pages for the sections taught by **Soma S Dhavala** �
 | **Lab (EE)** | Tuesday, 2:00–4:00 pm |
 | **Lab (Mech & Materials)** | Wednesday, 2:00–4:00 pm |
 | **First Class** | Monday, August 3, 2026 |
-| **Instructor** | Soma S Dhavala |
+| **Instructor** | [Soma S Dhavala](https://dhavala.github.io/) |
 
 : {tbl-colwidths="[30,70]"}
 
