@@ -1,0 +1,9 @@
+# Materials {.unnumbered}
+
+Interactive artifacts, handouts, and other student-facing files used in lectures and labs. Items are added here as the semester progresses, and are linked from the relevant [weekly notes](../weeks/w01.qmd) and [lab sheets](../labsheets/lab01.qmd).
+
+| Item | What it is | Used in |
+|---|---|---|
+| *(coming soon)* | Interactive tools and handouts will appear here | — |
+
+: {tbl-colwidths="[30,50,20]"}

@@ -1302,6 +1302,28 @@
     ]
   },
   {
+    "objectID": "materials/index.html",
+    "href": "materials/index.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Interactive artifacts, handouts, and other student-facing files used in lectures and labs. Items are added here as the semester progresses, and are linked from the relevant weekly notes and lab sheets.\n\n\n\n\n\n\n\n\nItem\nWhat it is\nUsed in\n\n\n\n\n(coming soon)\nInteractive tools and handouts will appear here\n—",
+    "crumbs": [
+      "Materials & Notebooks",
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "notebooks/index.html",
+    "href": "notebooks/index.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Runnable notebooks used in lectures and labs — worked examples, traces, and exercises you can execute and modify. Notebooks are listed here (and linked from the weekly notes) as they are published.\n\n\n\n\n\n\n\n\nNotebook\nTopic\nUsed in\n\n\n\n\n(coming soon)\n—\n—\n\n\n\n\n\n\n\n\n\nYou can run published notebooks locally (Jupyter/VS Code) or upload them to Google Colab — no local setup needed.",
+    "crumbs": [
+      "Materials & Notebooks",
+      "Notebooks"
+    ]
+  },
+  {
     "objectID": "cs1100-cse-iitm-2021/index.html",
     "href": "cs1100-cse-iitm-2021/index.html",
     "title": "CS1100 Lectures (IIT Madras)",
