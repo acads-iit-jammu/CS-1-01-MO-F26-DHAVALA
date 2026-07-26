@@ -6,7 +6,14 @@
       "Bash(curl -sL \"https://iitjammu.ac.in\" -o /private/tmp/claude-501/-Users-somadhavala-work-iitjmu-acad-courses-CS-1-01-MO-F26-DHAVALA/de98768f-69af-49d6-ac0f-88525ae50135/scratchpad/iitjammu.html)",
       "Bash(curl -sL https://www.cse.iitm.ac.in/~shwetaag/CS1100.html -o /private/tmp/claude-501/-Users-somadhavala-work-iitjmu-acad-courses-CS-1-01-MO-F26-DHAVALA/de98768f-69af-49d6-ac0f-88525ae50135/scratchpad/cs1100.html)",
       "Bash(python3 *)",
-      "Bash(quarto render *)"
+      "Bash(quarto render *)",
+      "Bash(codex --version)",
+      "Read(//Users/somadhavala/.codex/**)",
+      "Bash(codex exec --sandbox read-only -c model=gpt-5.6-sol-ultra 'You are reviewing a Quarto course website for CS-1-01 \\(MO\\) \"Computer System and Programming\" at IIT Jammu. Task: check whether the OFFICIAL SYLLABUS and the LECTURE/LAB PLAN are in sync. *)",
+      "Bash(codex exec *)",
+      "Bash(awk *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'Sync lecture/lab plan with official syllabus \\(post-review fixes\\) *)"
     ]
   }
 }

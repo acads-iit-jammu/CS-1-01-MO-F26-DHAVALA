@@ -12,27 +12,31 @@ Bring your laptop if you have one. You can also work in the browser with [Online
 
 ## Lab Schedule
 
-The schedule below is **tentative**; topics track the lectures and cover all practical modules of the [syllabus](./syllabus.qmd). Because institute holidays fall on different weekdays, the Tuesday (EE) and Wednesday (Mech/Materials) batches drift by a week in places — go by the *session number*, not the date.
+The schedule below is **tentative** and covers all 11 practical modules of the [syllabus](./syllabus.qmd) (the *module* column refers to the syllabus practical table). Lab handouts are **self-contained**: where a lab reaches a construct before its full lecture treatment, the handout introduces just enough of it to do the exercises. Because institute holidays fall on different weekdays, the Tuesday (EE) and Wednesday (Mech/Materials) batches drift by a week in places — go by the *session number*, not the date.
 
-| # | EE (Tue) | Mech & Materials (Wed) | Topic |
-|:---:|---|---|---|
-| 1 | Aug 4 | Aug 5 | Getting started: toolchain, editor, first C program |
-| 2 | Aug 11 | Aug 12 | Basic input/output programs |
-| 3 | Aug 18 | Aug 19 | Expressions, operators, and number-system practice |
-| 4 | Aug 25 | Sep 2 | Conditional statements |
-| 5 | Sep 1 | Sep 9 | `for` loops |
-| 6 | Sep 8 | Sep 16 | `while` and `do-while` loops |
-| 7 | Sep 15 | Sep 30 | Arrays, lists, and strings |
-| 8 | Sep 29 | Oct 7 | Using libraries (`string.h`, `math.h`, etc.) |
-| 9 | Oct 6 | Oct 14 | Functions and recursion |
-| 10 | Oct 13 | Oct 21 | Aggregate data: structures and unions (tuples & dictionaries, C-style) |
-| 11 | Oct 27 | Oct 28 | File handling |
-| 12 | Nov 3 | Nov 4 | Error handling |
-| 13 | Nov 17 | Nov 18 | Problem solving (GATE / ACM ICPC style) |
+| # | EE (Tue) | Mech & Materials (Wed) | Topic | Module |
+|:---:|---|---|---|:---:|
+| 1 | Aug 4 | Aug 5 | Basic input/output programs (incl. toolchain & editor setup) | 1 |
+| 2 | Aug 11 | Aug 12 | Conditional statements | 2 |
+| 3 | Aug 18 | Aug 19 | `for` loops | 5 |
+| 4 | Aug 25 | Sep 2 | `while` and `do-while` loops | 6 |
+| 5 | Sep 1 | Sep 9 | Lists and strings: arrays, strings as character arrays | 3 |
+| 6 | Sep 8 | Sep 16 | Using libraries (`string.h`, `math.h`, etc.) | 10 |
+| 7 | Sep 15 | Sep 30 | Functions and recursion | 7 |
+| 8 | Sep 29 | Oct 7 | Tuples & dictionaries, C-style: structures and key–value lookup tables | 4 |
+| 9 | Oct 6 | Oct 14 | File handling | 8 |
+| 10 | Oct 13 | Oct 21 | Error handling | 9 |
+| 11 | Oct 27 | Oct 28 | Problem solving I (GATE / ACM ICPC style) | 11 |
+| 12 | Nov 3 | Nov 4 | Problem solving II | 11 |
+| 13 | Nov 17 | Nov 18 | Problem solving III | 11 |
 
-: {tbl-colwidths="[6,15,22,57]"}
+: {tbl-colwidths="[6,13,20,53,8]"}
 
 **No lab on:** Wed Aug 26 (Milad-un-Nabi), Tue Sep 22 & Wed Sep 23 (mid-semester exams), Tue Oct 20 (Dussehra), Tue Nov 10 & Wed Nov 11 (holidays).
+
+::: {.callout-note}
+The syllabus allocates 28 practical hours (8 of them for problem solving); holidays leave 13 sessions = 26 hours. The remaining 2 hours of problem solving will be covered through a make-up lab session (date TBA) and problems embedded in earlier lab sheets.
+:::
 
 ## Useful Tools
 
