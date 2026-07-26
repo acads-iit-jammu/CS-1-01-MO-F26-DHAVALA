@@ -1,0 +1,24 @@
+# W16: Function Pointers, Structures & Unions {.unnumbered}
+
+**Dates:** Mon Nov 16 & Tue Nov 17, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 6 — Function pointers; structure, union; file handling; error handling (3 h)
+
+::: {.callout-important}
+Last day of classes is Fri Nov 20. End-semester examinations: Nov 23–30.
+:::
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 29](../cs1100-cse-iitm-2021/slides/Lec29.pdf) — Introduction to structures
+- [Lec 30](../cs1100-cse-iitm-2021/slides/Lec30.pdf) — More on structures; `typedef`; pointers to structures
+- [OCW L6](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec06/) — Structs, unions, bitfields; memory allocation
+- [OCW L8](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec08/) — Void and function pointers
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

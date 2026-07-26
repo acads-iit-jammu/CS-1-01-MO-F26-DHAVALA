@@ -1,0 +1,22 @@
+# W07: Selection Control {.unnumbered}
+
+**Dates:** Mon Sep 14 & Tue Sep 15, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 4 — Data and expressions; control structures (5 h)
+
+::: {.callout-important}
+**Mid-semester examinations begin Fri Sep 18.** The mid-sem covers W01–W07.
+:::
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 7](../cs1100-cse-iitm-2021/slides/Lec7.pdf) — Control flow; operators; single selection (`if`)
+- [Lec 8](../cs1100-cse-iitm-2021/slides/Lec8.pdf) — Multiple selection (`switch`); more `if-then-else`
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

@@ -1,0 +1,18 @@
+# W01: Introduction {.unnumbered}
+
+**Dates:** Mon Aug 3 & Tue Aug 4, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 1 — Introduction: computer science, algorithms, computer hardware & software (2 h)
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 1](../cs1100-cse-iitm-2021/slides/Lec1.pdf) — Introduction to Programming
+- [Lec 3](../cs1100-cse-iitm-2021/slides/Lec3.pdf) — The Computing Machine
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

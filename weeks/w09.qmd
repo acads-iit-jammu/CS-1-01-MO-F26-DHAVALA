@@ -1,0 +1,21 @@
+# W09: Iteration & Problem Solving {.unnumbered}
+
+**Dates:** Mon Sep 28 & Tue Sep 29, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 4 — Iterative control (Mon) · 7 — Problem-solving session (Tue)
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 9](../cs1100-cse-iitm-2021/slides/Lec9.pdf) — First loop construct: `while`
+- [Lec 12](../cs1100-cse-iitm-2021/slides/Lec12.pdf) — `for` loop (includes `do-while`, `break`, `continue`)
+- [Lec 13](../cs1100-cse-iitm-2021/slides/Lec13.pdf) — Example problems: mini calculator
+- [Lec 14](../cs1100-cse-iitm-2021/slides/Lec14.pdf) — Loop examples: primes, minimum, GCD
+- [Lec 16](../cs1100-cse-iitm-2021/slides/Lec16.pdf) — Loop revision: patterns, factorization, square roots
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

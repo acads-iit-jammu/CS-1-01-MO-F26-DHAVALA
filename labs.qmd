@@ -18,19 +18,19 @@ The schedule below is **tentative** and covers all 11 practical modules of the [
 
 | # | EE (Tue) | Mech & Materials (Wed) | Topic | Module |
 |:---:|---|---|---|:---:|
-| 1 | Aug 4 | Aug 5 | Basic input/output programs (incl. toolchain & editor setup) | 1 |
-| 2 | Aug 11 | Aug 12 | Conditional statements | 2 |
-| 3 | Aug 18 | Aug 19 | `for` loops | 5 |
-| 4 | Aug 25 | Sep 2 | `while` and `do-while` loops | 6 |
-| 5 | Sep 1 | Sep 9 | Lists and strings: arrays, strings as character arrays | 3 |
-| 6 | Sep 8 | Sep 16 | Using libraries (`string.h`, `math.h`, etc.) | 10 |
-| 7 | Sep 15 | Sep 30 | Functions and recursion | 7 |
-| 8 | Sep 29 | Oct 7 | Tuples & dictionaries, C-style: structures and key–value lookup tables | 4 |
-| 9 | Oct 6 | Oct 14 | File handling | 8 |
-| 10 | Oct 13 | Oct 21 | Error handling | 9 |
-| 11 | Oct 27 | Oct 28 | Problem solving I (GATE / ACM ICPC style) | 11 |
-| 12 | Nov 3 | Nov 4 | Problem solving II | 11 |
-| 13 | Nov 17 | Nov 18 | Problem solving III | 11 |
+| [1](labsheets/lab01.qmd) | Aug 4 | Aug 5 | Basic input/output programs (incl. toolchain & editor setup) | 1 |
+| [2](labsheets/lab02.qmd) | Aug 11 | Aug 12 | Conditional statements | 2 |
+| [3](labsheets/lab03.qmd) | Aug 18 | Aug 19 | `for` loops | 5 |
+| [4](labsheets/lab04.qmd) | Aug 25 | Sep 2 | `while` and `do-while` loops | 6 |
+| [5](labsheets/lab05.qmd) | Sep 1 | Sep 9 | Lists and strings: arrays, strings as character arrays | 3 |
+| [6](labsheets/lab06.qmd) | Sep 8 | Sep 16 | Using libraries (`string.h`, `math.h`, etc.) | 10 |
+| [7](labsheets/lab07.qmd) | Sep 15 | Sep 30 | Functions and recursion | 7 |
+| [8](labsheets/lab08.qmd) | Sep 29 | Oct 7 | Tuples & dictionaries, C-style: structures and key–value lookup tables | 4 |
+| [9](labsheets/lab09.qmd) | Oct 6 | Oct 14 | File handling | 8 |
+| [10](labsheets/lab10.qmd) | Oct 13 | Oct 21 | Error handling | 9 |
+| [11](labsheets/lab11.qmd) | Oct 27 | Oct 28 | Problem solving I (GATE / ACM ICPC style) | 11 |
+| [12](labsheets/lab12.qmd) | Nov 3 | Nov 4 | Problem solving II | 11 |
+| [13](labsheets/lab13.qmd) | Nov 17 | Nov 18 | Problem solving III | 11 |
 
 : {tbl-colwidths="[6,13,20,53,8]"}
 

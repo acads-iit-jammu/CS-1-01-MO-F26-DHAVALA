@@ -1,0 +1,17 @@
+# W10: Arrays {.unnumbered}
+
+**Dates:** Mon Oct 5 & Tue Oct 6, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 5 — Pointers; arrays; dynamic memory allocation; functions and recursion (8 h)
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 15](../cs1100-cse-iitm-2021/slides/Lec15.pdf) — Introduction to arrays; integer & character arrays; histogram; polynomial evaluation
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

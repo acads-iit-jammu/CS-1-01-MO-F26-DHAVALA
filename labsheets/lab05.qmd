@@ -1,0 +1,22 @@
+# Lab 05: Lists & Strings {.unnumbered}
+
+| | Electrical | Mechanical & Materials |
+|---|---|---|
+| **Date** | Tue Sep 1, 2026 | Wed Sep 9, 2026 |
+| **Time** | 2:00–4:00 pm | 2:00–4:00 pm |
+
+**Syllabus practical module:** 3 — Writing programs related to lists and strings
+
+**Evaluation:** Graded — equal weight within the 20% lab component.
+
+## Pre-Lab
+
+*To be posted — what to read/install before the session.*
+
+## Exercises
+
+*To be posted before the session.*
+
+## Submission
+
+Submission instructions will be provided in the lab.

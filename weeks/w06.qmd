@@ -1,0 +1,18 @@
+# W06: Data & Expressions {.unnumbered}
+
+**Dates:** Mon Sep 7 & Tue Sep 8, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 4 — Data and expressions; control structures (5 h)
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 5](../cs1100-cse-iitm-2021/slides/Lec5.pdf) — Operators, `scanf`, `printf`, `sizeof`, ranges of data types
+- [Lec 4](../cs1100-cse-iitm-2021/slides/Lec4.pdf) — (precedence & associativity sections)
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

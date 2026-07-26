@@ -1,0 +1,22 @@
+# W11: Strings & Multi-dimensional Arrays {.unnumbered}
+
+**Dates:** Mon Oct 12 & Tue Oct 13, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 5 — Pointers; arrays; dynamic memory allocation; functions and recursion (8 h)
+
+::: {.callout-important}
+**Class Test-2 window opens Wed Oct 14** (through Oct 22); exact date/time announced in class.
+:::
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 17](../cs1100-cse-iitm-2021/slides/Lec17.pdf) — Character arrays: string length, comparison, palindromes; multi-dimensional arrays
+- [Lec 18](../cs1100-cse-iitm-2021/slides/Lec18.pdf) — Standard library string support; matrix operations
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

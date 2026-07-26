@@ -1,0 +1,19 @@
+# W13: Functions & Recursion {.unnumbered}
+
+**Dates:** Mon Oct 26 & Tue Oct 27, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 5 — Pointers; arrays; dynamic memory allocation; functions and recursion (8 h)
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [Lec 19](../cs1100-cse-iitm-2021/slides/Lec19.pdf) — Introduction to functions; blocks and scope
+- [Lec 20](../cs1100-cse-iitm-2021/slides/Lec20.pdf) — More functions: factorial, matrix multiplication, Tic-Tac-Toe
+- [Lec 24](../cs1100-cse-iitm-2021/slides/Lec24.pdf) — Recursive functions: factorial, binomial coefficients, Fibonacci
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

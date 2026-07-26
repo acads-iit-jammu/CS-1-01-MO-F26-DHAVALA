@@ -56,24 +56,24 @@ The plan below is **tentative** and will be adjusted as the semester progresses.
 
 | Week | Dates (Mon, Tue) | Topics | Materials |
 |:---:|---|---|---|
-| 01 | Aug 3, Aug 4 | Introduction: computer science, algorithms, computer hardware & software | [Lec 1](cs1100-cse-iitm-2021/slides/Lec1.pdf) · [Lec 3](cs1100-cse-iitm-2021/slides/Lec3.pdf) |
-| 02 | Aug 10, Aug 11 | Number systems: decimal & binary; unsigned and signed integers (sign-magnitude, one's & two's complement) | Notes (TBP) |
-| 03 | Aug 17, Aug 18 | Number systems (contd.): binary arithmetic, floating point; conversions. *Class Test-1 window opens Aug 19* | Notes (TBP) |
-| 04 | Aug 24, Aug 25 | Programming types (declarative, imperative); structure of a C program; our first C program | [Lec 4](cs1100-cse-iitm-2021/slides/Lec4.pdf) |
-| 05 | Aug 31, Sep 1 | Compilation pipeline: source, assembly and object files, linker, loader; compiler vs. interpreter | [Lec 6](cs1100-cse-iitm-2021/slides/Lec6.pdf) |
-| 06 | Sep 7, Sep 8 | Data & expressions: literals, variables, identifiers, data types; operators, precedence; `printf`/`scanf` | [Lec 5](cs1100-cse-iitm-2021/slides/Lec5.pdf) |
-| 07 | Sep 14, Sep 15 | Control structures: boolean expressions, selection (`if`, `if-else`, `switch`) | [Lec 7](cs1100-cse-iitm-2021/slides/Lec7.pdf) · [Lec 8](cs1100-cse-iitm-2021/slides/Lec8.pdf) |
-| 08 | Sep 21, Sep 22 | **Mid-Semester Examinations (Sep 18–23) — no classes** | — |
-| 09 | Sep 28, Sep 29 | *Mon:* Iteration: `while`, `do-while`, `for`. *Tue:* **Problem-solving session** — loop workouts: mini calculator, primes, GCD, min | [Lec 9](cs1100-cse-iitm-2021/slides/Lec9.pdf) · [Lec 12](cs1100-cse-iitm-2021/slides/Lec12.pdf) · [Lec 13](cs1100-cse-iitm-2021/slides/Lec13.pdf) · [Lec 14](cs1100-cse-iitm-2021/slides/Lec14.pdf) · [Lec 16](cs1100-cse-iitm-2021/slides/Lec16.pdf) |
-| 10 | Oct 5, Oct 6 | Arrays: one-dimensional and character arrays; examples | [Lec 15](cs1100-cse-iitm-2021/slides/Lec15.pdf) |
-| 11 | Oct 12, Oct 13 | Strings and string processing; multi-dimensional arrays; matrix operations. *Class Test-2 window opens Oct 14* | [Lec 17](cs1100-cse-iitm-2021/slides/Lec17.pdf) · [Lec 18](cs1100-cse-iitm-2021/slides/Lec18.pdf) |
-| 12 | Oct 19, Oct 20 | **Dussehra holidays — no classes** | — |
-| 13 | Oct 26, Oct 27 | Functions and modular programming; scope; recursion | [Lec 19](cs1100-cse-iitm-2021/slides/Lec19.pdf) · [Lec 20](cs1100-cse-iitm-2021/slides/Lec20.pdf) · [Lec 24](cs1100-cse-iitm-2021/slides/Lec24.pdf) |
-| 14 | Nov 2, Nov 3 | Pointers; dynamic memory allocation (`malloc`, `calloc`, `realloc`, `free`) | [Lec 27](cs1100-cse-iitm-2021/slides/Lec27.pdf) (pointers part) · [Lec 28](cs1100-cse-iitm-2021/slides/Lec28.pdf) · [OCW L11](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec11/) |
-| 15 | Nov 9, Nov 10 | **Holidays (Govardhan Puja, Declared Holiday) — no classes** | — |
-| 16 | Nov 16, Nov 17 | Function pointers; structures & unions | [Lec 29](cs1100-cse-iitm-2021/slides/Lec29.pdf) · [Lec 30](cs1100-cse-iitm-2021/slides/Lec30.pdf) · [OCW L6](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec06/) · [OCW L8](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec08/) |
-| MU-1 | *TBA* | **Make-up class:** file handling and error handling (`fopen`/`fclose`, formatted file I/O, `errno`, `perror`); header files and modular builds | [OCW L4](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec04/) · [OCW L10](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec10/) · [OCW L3](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec03/) |
-| MU-2 | *TBA* | **Make-up class:** applications; brief of object-oriented programming; course wrap-up | [Wrap-up](cs1100-cse-iitm-2021/slides/wrapping-up.pdf) · Notes (TBP) |
+| [01](weeks/w01.qmd) | Aug 3, Aug 4 | Introduction: computer science, algorithms, computer hardware & software | [Lec 1](cs1100-cse-iitm-2021/slides/Lec1.pdf) · [Lec 3](cs1100-cse-iitm-2021/slides/Lec3.pdf) |
+| [02](weeks/w02.qmd) | Aug 10, Aug 11 | Number systems: decimal & binary; unsigned and signed integers (sign-magnitude, one's & two's complement) | Notes (TBP) |
+| [03](weeks/w03.qmd) | Aug 17, Aug 18 | Number systems (contd.): binary arithmetic, floating point; conversions. *Class Test-1 window opens Aug 19* | Notes (TBP) |
+| [04](weeks/w04.qmd) | Aug 24, Aug 25 | Programming types (declarative, imperative); structure of a C program; our first C program | [Lec 4](cs1100-cse-iitm-2021/slides/Lec4.pdf) |
+| [05](weeks/w05.qmd) | Aug 31, Sep 1 | Compilation pipeline: source, assembly and object files, linker, loader; compiler vs. interpreter | [Lec 6](cs1100-cse-iitm-2021/slides/Lec6.pdf) |
+| [06](weeks/w06.qmd) | Sep 7, Sep 8 | Data & expressions: literals, variables, identifiers, data types; operators, precedence; `printf`/`scanf` | [Lec 5](cs1100-cse-iitm-2021/slides/Lec5.pdf) |
+| [07](weeks/w07.qmd) | Sep 14, Sep 15 | Control structures: boolean expressions, selection (`if`, `if-else`, `switch`) | [Lec 7](cs1100-cse-iitm-2021/slides/Lec7.pdf) · [Lec 8](cs1100-cse-iitm-2021/slides/Lec8.pdf) |
+| [08](weeks/w08.qmd) | Sep 21, Sep 22 | **Mid-Semester Examinations (Sep 18–23) — no classes** | — |
+| [09](weeks/w09.qmd) | Sep 28, Sep 29 | *Mon:* Iteration: `while`, `do-while`, `for`. *Tue:* **Problem-solving session** — loop workouts: mini calculator, primes, GCD, min | [Lec 9](cs1100-cse-iitm-2021/slides/Lec9.pdf) · [Lec 12](cs1100-cse-iitm-2021/slides/Lec12.pdf) · [Lec 13](cs1100-cse-iitm-2021/slides/Lec13.pdf) · [Lec 14](cs1100-cse-iitm-2021/slides/Lec14.pdf) · [Lec 16](cs1100-cse-iitm-2021/slides/Lec16.pdf) |
+| [10](weeks/w10.qmd) | Oct 5, Oct 6 | Arrays: one-dimensional and character arrays; examples | [Lec 15](cs1100-cse-iitm-2021/slides/Lec15.pdf) |
+| [11](weeks/w11.qmd) | Oct 12, Oct 13 | Strings and string processing; multi-dimensional arrays; matrix operations. *Class Test-2 window opens Oct 14* | [Lec 17](cs1100-cse-iitm-2021/slides/Lec17.pdf) · [Lec 18](cs1100-cse-iitm-2021/slides/Lec18.pdf) |
+| [12](weeks/w12.qmd) | Oct 19, Oct 20 | **Dussehra holidays — no classes** | — |
+| [13](weeks/w13.qmd) | Oct 26, Oct 27 | Functions and modular programming; scope; recursion | [Lec 19](cs1100-cse-iitm-2021/slides/Lec19.pdf) · [Lec 20](cs1100-cse-iitm-2021/slides/Lec20.pdf) · [Lec 24](cs1100-cse-iitm-2021/slides/Lec24.pdf) |
+| [14](weeks/w14.qmd) | Nov 2, Nov 3 | Pointers; dynamic memory allocation (`malloc`, `calloc`, `realloc`, `free`) | [Lec 27](cs1100-cse-iitm-2021/slides/Lec27.pdf) (pointers part) · [Lec 28](cs1100-cse-iitm-2021/slides/Lec28.pdf) · [OCW L11](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec11/) |
+| [15](weeks/w15.qmd) | Nov 9, Nov 10 | **Holidays (Govardhan Puja, Declared Holiday) — no classes** | — |
+| [16](weeks/w16.qmd) | Nov 16, Nov 17 | Function pointers; structures & unions | [Lec 29](cs1100-cse-iitm-2021/slides/Lec29.pdf) · [Lec 30](cs1100-cse-iitm-2021/slides/Lec30.pdf) · [OCW L6](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec06/) · [OCW L8](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec08/) |
+| [MU-1](weeks/mu1.qmd) | *TBA* | **Make-up class:** file handling and error handling (`fopen`/`fclose`, formatted file I/O, `errno`, `perror`); header files and modular builds | [OCW L4](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec04/) · [OCW L10](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec10/) · [OCW L3](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec03/) |
+| [MU-2](weeks/mu2.qmd) | *TBA* | **Make-up class:** applications; brief of object-oriented programming; course wrap-up | [Wrap-up](cs1100-cse-iitm-2021/slides/wrapping-up.pdf) · Notes (TBP) |
 
 : {tbl-colwidths="[7,18,50,25]"}
 

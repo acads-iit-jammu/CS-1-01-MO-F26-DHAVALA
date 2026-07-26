@@ -25,6 +25,41 @@ book:
     - course.qmd
     - syllabus.qmd
     - labs.qmd
+    - part: "Weekly Notes"
+      chapters:
+        - weeks/w01.qmd
+        - weeks/w02.qmd
+        - weeks/w03.qmd
+        - weeks/w04.qmd
+        - weeks/w05.qmd
+        - weeks/w06.qmd
+        - weeks/w07.qmd
+        - weeks/w08.qmd
+        - weeks/w09.qmd
+        - weeks/w10.qmd
+        - weeks/w11.qmd
+        - weeks/w12.qmd
+        - weeks/w13.qmd
+        - weeks/w14.qmd
+        - weeks/w15.qmd
+        - weeks/w16.qmd
+        - weeks/mu1.qmd
+        - weeks/mu2.qmd
+    - part: "Lab Sheets"
+      chapters:
+        - labsheets/lab01.qmd
+        - labsheets/lab02.qmd
+        - labsheets/lab03.qmd
+        - labsheets/lab04.qmd
+        - labsheets/lab05.qmd
+        - labsheets/lab06.qmd
+        - labsheets/lab07.qmd
+        - labsheets/lab08.qmd
+        - labsheets/lab09.qmd
+        - labsheets/lab10.qmd
+        - labsheets/lab11.qmd
+        - labsheets/lab12.qmd
+        - labsheets/lab13.qmd
     - part: "Reference Material"
       chapters:
         - cs1100-cse-iitm-2021/index.qmd

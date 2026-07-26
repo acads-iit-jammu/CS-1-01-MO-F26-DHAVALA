@@ -1,0 +1,23 @@
+# MU-1: File & Error Handling (Make-up) {.unnumbered}
+
+**Dates:** Date TBA (compensatory day) · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 6 — Function pointers; structure, union; file handling; error handling (3 h)
+
+::: {.callout-important}
+Covers: `fopen`/`fclose`, formatted file I/O, `errno`, `perror`; header files and modular builds.
+:::
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- [OCW L4](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec04/) — More control flow; input and output
+- [OCW L10](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec10/) — C standard library: `stdio.h`, `stdlib.h`, `assert.h`, …
+- [OCW L3](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/resources/mit6_087iap10_lec03/) — Functions and modular programming (header files)
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*

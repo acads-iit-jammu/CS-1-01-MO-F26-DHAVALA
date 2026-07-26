@@ -1,0 +1,17 @@
+# W02: Number Systems I {.unnumbered}
+
+**Dates:** Mon Aug 10 & Tue Aug 11, 2026 · 8:00–8:50 am · 12LH3004
+
+**Syllabus module:** 2 — Number systems, conversions, and arithmetic (4 h)
+
+## Pre-read
+
+*To be posted (typically by the weekend before).*
+
+## In Class
+
+- Notes (to be posted) — decimal & binary; unsigned and signed integers (sign-magnitude, one's & two's complement)
+
+## After Class
+
+*Practice problems and any handouts will be posted here.*
