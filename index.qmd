@@ -29,5 +29,5 @@ See the [Course](./course.qmd) page for the week-by-week plan, and the [Labs](./
 
 Parts of this course reuse and adapt material, with gratitude:
 
-- **Prof. Shweta Agrawal** and the **Department of Computer Science & Engineering, IIT Madras**, for generously allowing the reuse/adaptation of the [CS1100: Introduction to Programming](https://www.cse.iitm.ac.in/~shwetaag/CS1100.html) lecture material. See the [reference lectures](./cs1100-cse-iitm-2021/index.qmd).
+- **Department of Computer Science & Engineering, IIT Madras**, for generously allowing the reuse/adaptation of the [CS1100: Introduction to Programming](https://www.cse.iitm.ac.in/~shwetaag/CS1100.html) lecture material. See the [reference lectures](./cs1100-cse-iitm-2021/index.qmd).
 - **MIT OpenCourseWare**, [6.087 Practical Programming in C (IAP 2010)](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/), used under CC BY-NC-SA.
