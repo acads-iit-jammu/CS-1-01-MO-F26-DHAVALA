@@ -9,6 +9,8 @@ book:
   subtitle: "Computer System and Programming · Monsoon 2026"
   author: "Soma S Dhavala · IIT Jammu"
   reader-mode: true
+  sidebar:
+    collapse-level: 1
 
   page-footer:
     left: |
