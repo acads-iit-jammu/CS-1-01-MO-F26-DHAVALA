@@ -22,3 +22,7 @@ Last day of classes is Fri Nov 20. End-semester examinations: Nov 23–30.
 ## After Class
 
 *Practice problems and any handouts will be posted here.*
+
+## PAGAL Notes
+
+*PAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week's informal, blog-style column: how this week's material looks in the age of AI. To be posted.*

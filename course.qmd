@@ -55,6 +55,8 @@ From the [IIT Jammu academic calendar for 1^st^ year UG students, Semester 2026-
 
 The plan below is **tentative** and will be adjusted as the semester progresses. Slides marked *Lec n* are from [CS1100, IIT Madras](./cs1100-cse-iitm-2021/index.qmd), reused with permission — see [acknowledgements](./index.qmd#acknowledgements). Additional notes will be posted as we go.
 
+Each week's page carries Pre-read, In-Class, and After-Class sections — and ends with **PAGAL Notes** (*Perspectives on Algorithms, Generative AI & Learning*): an informal, blog-style weekly column on how that week's material looks in the age of AI.
+
 | Week | Dates (Mon, Tue) | Topics | Materials |
 |:---:|---|---|---|
 | [01](weeks/w01.qmd) | Aug 3, Aug 4 | Introduction: computer science, algorithms, computer hardware & software | [Lec 1](cs1100-cse-iitm-2021/slides/Lec1.pdf) · [Lec 3](cs1100-cse-iitm-2021/slides/Lec3.pdf) |
