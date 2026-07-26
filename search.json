@@ -84,7 +84,7 @@
     "href": "course.html#weekly-plan-lectures",
     "title": "Course",
     "section": "Weekly Plan (Lectures)",
-    "text": "Weekly Plan (Lectures)\nThe plan below is tentative and will be adjusted as the semester progresses. Slides marked Lec n are from CS1100, IIT Madras, reused with permission — see acknowledgements. Additional notes will be posted as we go.\n\n\n\n\n\n\n\n\n\nWeek\nDates (Mon, Tue)\nTopics\nMaterials\n\n\n\n\n01\nAug 3, Aug 4\nIntroduction: computer science, algorithms, computer hardware & software\nLec 1 · Lec 3\n\n\n02\nAug 10, Aug 11\nNumber systems: decimal & binary; unsigned and signed integers (sign-magnitude, one’s & two’s complement)\nNotes (TBP)\n\n\n03\nAug 17, Aug 18\nNumber systems (contd.): binary arithmetic, floating point; conversions. Class Test-1 window opens Aug 19\nNotes (TBP)\n\n\n04\nAug 24, Aug 25\nProgramming types (declarative, imperative); structure of a C program; our first C program\nLec 4\n\n\n05\nAug 31, Sep 1\nCompilation pipeline: source, assembly and object files, linker, loader; compiler vs. interpreter\nLec 6\n\n\n06\nSep 7, Sep 8\nData & expressions: literals, variables, identifiers, data types; operators, precedence; printf/scanf\nLec 5\n\n\n07\nSep 14, Sep 15\nControl structures: boolean expressions, selection (if, if-else, switch)\nLec 7 · Lec 8\n\n\n08\nSep 21, Sep 22\nMid-Semester Examinations (Sep 18–23) — no classes\n—\n\n\n09\nSep 28, Sep 29\nMon: Iteration: while, do-while, for. Tue: Problem-solving session — loop workouts: mini calculator, primes, GCD, min\nLec 9 · Lec 12 · Lec 13 · Lec 14 · Lec 16\n\n\n10\nOct 5, Oct 6\nArrays: one-dimensional and character arrays; examples\nLec 15\n\n\n11\nOct 12, Oct 13\nStrings and string processing; multi-dimensional arrays; matrix operations. Class Test-2 window opens Oct 14\nLec 17 · Lec 18\n\n\n12\nOct 19, Oct 20\nDussehra holidays — no classes\n—\n\n\n13\nOct 26, Oct 27\nFunctions and modular programming; scope; recursion\nLec 19 · Lec 20 · Lec 24\n\n\n14\nNov 2, Nov 3\nPointers; dynamic memory allocation (malloc, calloc, realloc, free)\nLec 27 (pointers part) · Lec 28 · OCW L11\n\n\n15\nNov 9, Nov 10\nHolidays (Govardhan Puja, Declared Holiday) — no classes\n—\n\n\n16\nNov 16, Nov 17\nFunction pointers; structures & unions\nLec 29 · Lec 30 · OCW L6 · OCW L8\n\n\nMU-1\nTBA\nMake-up class: file handling and error handling (fopen/fclose, formatted file I/O, errno, perror); header files and modular builds\nOCW L4 · OCW L10 · OCW L3\n\n\nMU-2\nTBA\nMake-up class: applications; brief of object-oriented programming; course wrap-up\nWrap-up · Notes (TBP)\n\n\n\n\n\n\n\n\n\nThe syllabus allocates 28 lecture hours, but the holiday weeks above leave only 26 Mon/Tue slots — so the two make-up classes (MU-1, MU-2) are required, not optional. They will be scheduled on designated compensatory days and announced in class and here. Materials marked OCW are from MIT OCW 6.087 (CC BY-NC-SA).",
+    "text": "Weekly Plan (Lectures)\nThe plan below is tentative and will be adjusted as the semester progresses. Slides marked Lec n are from CS1100, IIT Madras, reused with permission — see acknowledgements. Additional notes will be posted as we go.\nEach week’s page carries Pre-read, In-Class, and After-Class sections — and ends with PAGAL Notes (Perspectives on Algorithms, Generative AI & Learning): an informal, blog-style weekly column on how that week’s material looks in the age of AI.\n\n\n\n\n\n\n\n\n\nWeek\nDates (Mon, Tue)\nTopics\nMaterials\n\n\n\n\n01\nAug 3, Aug 4\nIntroduction: computer science, algorithms, computer hardware & software\nLec 1 · Lec 3\n\n\n02\nAug 10, Aug 11\nNumber systems: decimal & binary; unsigned and signed integers (sign-magnitude, one’s & two’s complement)\nNotes (TBP)\n\n\n03\nAug 17, Aug 18\nNumber systems (contd.): binary arithmetic, floating point; conversions. Class Test-1 window opens Aug 19\nNotes (TBP)\n\n\n04\nAug 24, Aug 25\nProgramming types (declarative, imperative); structure of a C program; our first C program\nLec 4\n\n\n05\nAug 31, Sep 1\nCompilation pipeline: source, assembly and object files, linker, loader; compiler vs. interpreter\nLec 6\n\n\n06\nSep 7, Sep 8\nData & expressions: literals, variables, identifiers, data types; operators, precedence; printf/scanf\nLec 5\n\n\n07\nSep 14, Sep 15\nControl structures: boolean expressions, selection (if, if-else, switch)\nLec 7 · Lec 8\n\n\n08\nSep 21, Sep 22\nMid-Semester Examinations (Sep 18–23) — no classes\n—\n\n\n09\nSep 28, Sep 29\nMon: Iteration: while, do-while, for. Tue: Problem-solving session — loop workouts: mini calculator, primes, GCD, min\nLec 9 · Lec 12 · Lec 13 · Lec 14 · Lec 16\n\n\n10\nOct 5, Oct 6\nArrays: one-dimensional and character arrays; examples\nLec 15\n\n\n11\nOct 12, Oct 13\nStrings and string processing; multi-dimensional arrays; matrix operations. Class Test-2 window opens Oct 14\nLec 17 · Lec 18\n\n\n12\nOct 19, Oct 20\nDussehra holidays — no classes\n—\n\n\n13\nOct 26, Oct 27\nFunctions and modular programming; scope; recursion\nLec 19 · Lec 20 · Lec 24\n\n\n14\nNov 2, Nov 3\nPointers; dynamic memory allocation (malloc, calloc, realloc, free)\nLec 27 (pointers part) · Lec 28 · OCW L11\n\n\n15\nNov 9, Nov 10\nHolidays (Govardhan Puja, Declared Holiday) — no classes\n—\n\n\n16\nNov 16, Nov 17\nFunction pointers; structures & unions\nLec 29 · Lec 30 · OCW L6 · OCW L8\n\n\nMU-1\nTBA\nMake-up class: file handling and error handling (fopen/fclose, formatted file I/O, errno, perror); header files and modular builds\nOCW L4 · OCW L10 · OCW L3\n\n\nMU-2\nTBA\nMake-up class: applications; brief of object-oriented programming; course wrap-up\nWrap-up · Notes (TBP)\n\n\n\n\n\n\n\n\n\nThe syllabus allocates 28 lecture hours, but the holiday weeks above leave only 26 Mon/Tue slots — so the two make-up classes (MU-1, MU-2) are required, not optional. They will be scheduled on designated compensatory days and announced in class and here. Materials marked OCW are from MIT OCW 6.087 (CC BY-NC-SA).",
     "crumbs": [
       "Course"
     ]
@@ -213,6 +213,17 @@
     ]
   },
   {
+    "objectID": "weeks/w01.html#pagal-notes",
+    "href": "weeks/w01.html#pagal-notes",
+    "title": "W01: Introduction",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W01: Introduction"
+    ]
+  },
+  {
     "objectID": "weeks/w02.html",
     "href": "weeks/w02.html",
     "title": "W02: Number Systems I",
@@ -240,6 +251,17 @@
     "title": "W02: Number Systems I",
     "section": "After Class",
     "text": "After Class\nPractice problems and any handouts will be posted here.",
+    "crumbs": [
+      "Weekly Notes",
+      "W02: Number Systems I"
+    ]
+  },
+  {
+    "objectID": "weeks/w02.html#pagal-notes",
+    "href": "weeks/w02.html#pagal-notes",
+    "title": "W02: Number Systems I",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
     "crumbs": [
       "Weekly Notes",
       "W02: Number Systems I"
@@ -279,6 +301,17 @@
     ]
   },
   {
+    "objectID": "weeks/w03.html#pagal-notes",
+    "href": "weeks/w03.html#pagal-notes",
+    "title": "W03: Number Systems II",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W03: Number Systems II"
+    ]
+  },
+  {
     "objectID": "weeks/w04.html",
     "href": "weeks/w04.html",
     "title": "W04: C Program Structure",
@@ -306,6 +339,17 @@
     "title": "W04: C Program Structure",
     "section": "After Class",
     "text": "After Class\nPractice problems and any handouts will be posted here.",
+    "crumbs": [
+      "Weekly Notes",
+      "W04: C Program Structure"
+    ]
+  },
+  {
+    "objectID": "weeks/w04.html#pagal-notes",
+    "href": "weeks/w04.html#pagal-notes",
+    "title": "W04: C Program Structure",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
     "crumbs": [
       "Weekly Notes",
       "W04: C Program Structure"
@@ -345,6 +389,17 @@
     ]
   },
   {
+    "objectID": "weeks/w05.html#pagal-notes",
+    "href": "weeks/w05.html#pagal-notes",
+    "title": "W05: Compilation & the Toolchain",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W05: Compilation & the Toolchain"
+    ]
+  },
+  {
     "objectID": "weeks/w06.html",
     "href": "weeks/w06.html",
     "title": "W06: Data & Expressions",
@@ -378,6 +433,17 @@
     ]
   },
   {
+    "objectID": "weeks/w06.html#pagal-notes",
+    "href": "weeks/w06.html#pagal-notes",
+    "title": "W06: Data & Expressions",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W06: Data & Expressions"
+    ]
+  },
+  {
     "objectID": "weeks/w07.html",
     "href": "weeks/w07.html",
     "title": "W07: Selection Control",
@@ -405,6 +471,17 @@
     "title": "W07: Selection Control",
     "section": "After Class",
     "text": "After Class\nPractice problems and any handouts will be posted here.",
+    "crumbs": [
+      "Weekly Notes",
+      "W07: Selection Control"
+    ]
+  },
+  {
+    "objectID": "weeks/w07.html#pagal-notes",
+    "href": "weeks/w07.html#pagal-notes",
+    "title": "W07: Selection Control",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
     "crumbs": [
       "Weekly Notes",
       "W07: Selection Control"
@@ -455,6 +532,17 @@
     ]
   },
   {
+    "objectID": "weeks/w09.html#pagal-notes",
+    "href": "weeks/w09.html#pagal-notes",
+    "title": "W09: Iteration & Problem Solving",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W09: Iteration & Problem Solving"
+    ]
+  },
+  {
     "objectID": "weeks/w10.html",
     "href": "weeks/w10.html",
     "title": "W10: Arrays",
@@ -488,6 +576,17 @@
     ]
   },
   {
+    "objectID": "weeks/w10.html#pagal-notes",
+    "href": "weeks/w10.html#pagal-notes",
+    "title": "W10: Arrays",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W10: Arrays"
+    ]
+  },
+  {
     "objectID": "weeks/w11.html",
     "href": "weeks/w11.html",
     "title": "W11: Strings & Multi-dimensional Arrays",
@@ -515,6 +614,17 @@
     "title": "W11: Strings & Multi-dimensional Arrays",
     "section": "After Class",
     "text": "After Class\nPractice problems and any handouts will be posted here.",
+    "crumbs": [
+      "Weekly Notes",
+      "W11: Strings & Multi-dimensional Arrays"
+    ]
+  },
+  {
+    "objectID": "weeks/w11.html#pagal-notes",
+    "href": "weeks/w11.html#pagal-notes",
+    "title": "W11: Strings & Multi-dimensional Arrays",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
     "crumbs": [
       "Weekly Notes",
       "W11: Strings & Multi-dimensional Arrays"
@@ -565,6 +675,17 @@
     ]
   },
   {
+    "objectID": "weeks/w13.html#pagal-notes",
+    "href": "weeks/w13.html#pagal-notes",
+    "title": "W13: Functions & Recursion",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W13: Functions & Recursion"
+    ]
+  },
+  {
     "objectID": "weeks/w14.html",
     "href": "weeks/w14.html",
     "title": "W14: Pointers & Dynamic Memory",
@@ -592,6 +713,17 @@
     "title": "W14: Pointers & Dynamic Memory",
     "section": "After Class",
     "text": "After Class\nPractice problems and any handouts will be posted here.",
+    "crumbs": [
+      "Weekly Notes",
+      "W14: Pointers & Dynamic Memory"
+    ]
+  },
+  {
+    "objectID": "weeks/w14.html#pagal-notes",
+    "href": "weeks/w14.html#pagal-notes",
+    "title": "W14: Pointers & Dynamic Memory",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
     "crumbs": [
       "Weekly Notes",
       "W14: Pointers & Dynamic Memory"
@@ -642,6 +774,17 @@
     ]
   },
   {
+    "objectID": "weeks/w16.html#pagal-notes",
+    "href": "weeks/w16.html#pagal-notes",
+    "title": "W16: Function Pointers, Structures & Unions",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "W16: Function Pointers, Structures & Unions"
+    ]
+  },
+  {
     "objectID": "weeks/mu1.html",
     "href": "weeks/mu1.html",
     "title": "MU-1: File & Error Handling (Make-up)",
@@ -675,6 +818,17 @@
     ]
   },
   {
+    "objectID": "weeks/mu1.html#pagal-notes",
+    "href": "weeks/mu1.html#pagal-notes",
+    "title": "MU-1: File & Error Handling (Make-up)",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
+    "crumbs": [
+      "Weekly Notes",
+      "MU-1: File & Error Handling (Make-up)"
+    ]
+  },
+  {
     "objectID": "weeks/mu2.html",
     "href": "weeks/mu2.html",
     "title": "MU-2: Applications & Wrap-up (Make-up)",
@@ -702,6 +856,17 @@
     "title": "MU-2: Applications & Wrap-up (Make-up)",
     "section": "After Class",
     "text": "After Class\nPractice problems and any handouts will be posted here.",
+    "crumbs": [
+      "Weekly Notes",
+      "MU-2: Applications & Wrap-up (Make-up)"
+    ]
+  },
+  {
+    "objectID": "weeks/mu2.html#pagal-notes",
+    "href": "weeks/mu2.html#pagal-notes",
+    "title": "MU-2: Applications & Wrap-up (Make-up)",
+    "section": "PAGAL Notes",
+    "text": "PAGAL Notes\nPAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week’s informal, blog-style column: how this week’s material looks in the age of AI. To be posted.",
     "crumbs": [
       "Weekly Notes",
       "MU-2: Applications & Wrap-up (Make-up)"
