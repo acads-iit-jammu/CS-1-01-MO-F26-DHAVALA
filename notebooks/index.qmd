@@ -1,0 +1,13 @@
+# Notebooks {.unnumbered}
+
+Runnable notebooks used in lectures and labs — worked examples, traces, and exercises you can execute and modify. Notebooks are listed here (and linked from the weekly notes) as they are published.
+
+| Notebook | Topic | Used in |
+|---|---|---|
+| *(coming soon)* | — | — |
+
+: {tbl-colwidths="[30,50,20]"}
+
+::: {.callout-tip}
+You can run published notebooks locally (Jupyter/VS Code) or upload them to [Google Colab](https://colab.research.google.com/) — no local setup needed.
+:::

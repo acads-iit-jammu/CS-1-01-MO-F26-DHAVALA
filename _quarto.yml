@@ -3,6 +3,8 @@ project:
   output-dir: _site
   resources:
     - cs1100-cse-iitm-2021/slides/
+    - materials/
+    - notebooks/
 
 book:
   title: "CS-1-01 (MO)"
@@ -62,6 +64,10 @@ book:
         - labsheets/lab11.qmd
         - labsheets/lab12.qmd
         - labsheets/lab13.qmd
+    - part: "Materials & Notebooks"
+      chapters:
+        - materials/index.qmd
+        - notebooks/index.qmd
     - part: "Reference Material"
       chapters:
         - cs1100-cse-iitm-2021/index.qmd

@@ -14,7 +14,16 @@
       "Bash(awk *)",
       "Bash(git add *)",
       "Bash(git commit -q -m 'Sync lecture/lab plan with official syllabus \\(post-review fixes\\) *)",
-      "Bash(git commit -q -m 'Add assessment rubric: CT1/CT2 10% each, midsem 20%, endsem 30%, hackathon 10%, labs 20% *)"
+      "Bash(git commit -q -m 'Add assessment rubric: CT1/CT2 10% each, midsem 20%, endsem 30%, hackathon 10%, labs 20% *)",
+      "Read(//Users/somadhavala/work/iitjmu-acad/courses/**)",
+      "Read(//Users/somadhavala/work/iitjmu-acad/courses/ID-5-02-MO-F26/**)",
+      "Bash(git -C /Users/somadhavala/work/iitjmu-acad/courses/ID-5-02-TO-F26 status --short)",
+      "Bash(git commit -q -m 'Register Materials & Notebooks sections \\(navigation + resources\\); public listing pages *)",
+      "Bash(git push *)",
+      "Bash(git -C private add -A)",
+      "Bash(git -C private commit -q -m 'Add teacher-side materials/ and notebooks/ workspaces with graduation workflow *)",
+      "Bash(git -C private push)",
+      "Bash(quarto publish *)"
     ]
   }
 }
