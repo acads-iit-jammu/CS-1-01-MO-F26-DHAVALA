@@ -23,7 +23,8 @@
       "Bash(git -C private add -A)",
       "Bash(git -C private commit -q -m 'Add teacher-side materials/ and notebooks/ workspaces with graduation workflow *)",
       "Bash(git -C private push)",
-      "Bash(quarto publish *)"
+      "Bash(quarto publish *)",
+      "Bash(git -C private commit -q -m 'Toy computer v2 \\(the spine: 6-step concept ladder on adding integers\\) + under-the-hood v1 \\(flip-flop-level adder machine with clock and timing diagram\\); both headlessly tested *)"
     ]
   }
 }
