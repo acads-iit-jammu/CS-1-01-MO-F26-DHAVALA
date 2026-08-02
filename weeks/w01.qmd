@@ -11,7 +11,6 @@
 ## In Class
 
 - 📽️ [**Deck 01 — Logistics**](../materials/w01-deck-01-logistics.html) — the opening slides: who/where/when, assessment, tools, and this week's plan.
-- 📽️ [**Deck 02 — Programming in the Age of AI**](../materials/w01-deck-02-age-of-ai.html) — the paradigm shift and what it asks of you: the Specify–Verify loop, architects over bricklayers, curiosity as the scarce temperament, and Computational X. (Companion long-read: this week's PAGAL note below.)
 - 🐢 [**The Turtle Computer**](../materials/w01-turtle-computer.html) — your first programming language: ten words, one turtle, no typing. We start here, before any C: a program is a precise plan, the machine does exactly what you *said* (never what you meant), and language features are *invented* when problems demand them.
 - [Lec 1](../cs1100-cse-iitm-2021/slides/Lec1.pdf) — Introduction to Programming
 - [Lec 3](../cs1100-cse-iitm-2021/slides/Lec3.pdf) — The Computing Machine
@@ -25,6 +24,8 @@
 ## PAGAL Notes
 
 *PAGAL — Perspectives on Algorithms, Generative AI & Learning: the week's informal column.*
+
+- 📽️ **In slides:** [PAGAL — Programming in the Age of AI](../materials/w01-pagal-age-of-ai.html) — this week's column as a presentation: the paradigm shift, the Specify–Verify loop, architects over bricklayers, and Computational X. The long-reads follow below.
 
 **On telescopes — and on checking your quotes.**
 
