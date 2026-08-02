@@ -91,6 +91,32 @@ const SLIDES = [
      "C is our medium; the skills — specify, plan, implement, verify — outlive any language",
      "In the age of AI code assistants, the scarce skill is not <i>typing</i> programs — it is <b>stating problems precisely</b> and <b>judging whether code is correct</b>"))},
 
+{title:"Programming is not about computers", body:()=> e(F,null,
+  html("p",'<span class="big">“Computer science is no more about computers than astronomy is about telescopes.”</span> <span style="color:#667;font-size:.8em">— often attributed to E. W. Dijkstra</span>'),
+  li("You have computed all your life <i>without</i> a computer: long division, scaling a recipe for 7 guests, finding a name in a sorted attendance register",
+     "<b>Computing</b> is the method — a step-by-step plan that turns what you have into what you want",
+     "<b>Programming</b> is writing that plan precisely enough for the most obedient, most literal-minded executor ever built",
+     "The chain is: <b>problem → plan → notation → executor</b>. The computer is the last box — and the most replaceable one (this month alone: turtle → toy machine → C)"),
+  html("div",'<div class="note">So when you are stuck this semester, the question is almost never “what C should I type?” — it is “<b>what is my plan?</b>”</div>'))},
+
+{title:"…so what IS programming about?", body:()=> e(F,null,
+  html("p",'<span class="big">Programming is a means of solving problems by computation.</span>'),
+  table(["The four verbs (you will do these every week)","In plain words"],[
+    ["<b>1 · Specify</b>","say exactly what is <i>given</i> and what must be <i>ensured</i> — until no ambiguity survives"],
+    ["<b>2 · Plan</b>","break the problem down; pick a strategy; know <i>why</i> it will work"],
+    ["<b>3 · Express</b>","write the plan in a notation an executor can follow — this semester, C"],
+    ["<b>4 · Verify</b>","check what came out against what was promised — with test cases that could prove you wrong"]]),
+  li("Underneath the verbs, three habits of mind: <b>decomposition</b> (big → small), <b>abstraction</b> (name it, hide the details, reuse it), and <b>precision</b> (the executor grants no benefit of the doubt)"),
+  html("div",'<div class="note">The program is the <i>byproduct</i>. The understanding — problem, plan, and proof that it worked — is the <b>product</b>.</div>'))},
+
+{title:"Reading beats writing (yes, really)", body:()=> e(F,null,
+  li("Professional programmers <b>read</b> roughly ten times more code than they write — old code, teammates' code, and now, AI's code",
+     "Reading is the <b>auditing</b> skill: predict the output, spot the bug, check the program against what was <i>asked</i>",
+     "It is in your official outcomes — and on your exams: <i>“explain the output of a given C program; identify and correct the errors”</i>",
+     "Writing teaches you to <i>speak</i> C. Reading teaches you to <i>think</i> in it",
+     "So expect reading drills all semester: predict-before-run, find-the-bug, and “show me an input that breaks it”"),
+  html("div",'<div class="note">You wouldn\'t trust a writer who never reads. The same holds for programmers — especially ones whose AI writes the first draft.</div>'))},
+
 {title:"The rhythm of every week", body:()=> e(F,null,
   table(["When","What"],[
     ["Mon &amp; Tue 8:00","Lecture — one new idea, worked through problems"],
