@@ -6,6 +6,11 @@
 2. Robert W. Sebesta. *Concepts of Programming Languages*. Pearson Education, 2019.
 3. Richard Johnsonbaugh and Martin Kalin. *Object-Oriented Programming in C++*. Macmillan USA, 1994.
 
+## Problem Solving (the course's pedagogical spine)
+
+1. G. Pólya. *How to Solve It: A New Aspect of Mathematical Method.* Princeton University Press, 1945 (many later editions). — the four-phase loop we run on every problem: understand → plan → carry out → look back.
+2. Arthur Engel. *Problem-Solving Strategies.* Problem Books in Mathematics, Springer, 1998. — the catalog of moves (invariance, working backwards, the extremal principle, …) we name as we meet them.
+
 ## Online Material
 
 ### MIT OCW 6.087: Practical Programming in C
