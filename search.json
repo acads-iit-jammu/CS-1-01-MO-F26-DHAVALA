@@ -195,7 +195,7 @@
     "href": "weeks/w01.html#in-class",
     "title": "W01: Introduction",
     "section": "In Class",
-    "text": "In Class\n\nLec 1 — Introduction to Programming\nLec 3 — The Computing Machine",
+    "text": "In Class\n\n🐢 The Turtle Computer — your first programming language: ten words, one turtle, no typing. We start here, before any C: a program is a precise plan, the machine does exactly what you said (never what you meant), and language features are invented when problems demand them.\nLec 1 — Introduction to Programming\nLec 3 — The Computing Machine",
     "crumbs": [
       "Weekly Notes",
       "W01: Introduction"
@@ -206,7 +206,7 @@
     "href": "weeks/w01.html#after-class",
     "title": "W01: Introduction",
     "section": "After Class",
-    "text": "After Class\nPractice problems and any handouts will be posted here.",
+    "text": "After Class\n\nFinish all six Turtle missions — can you match the turtle master’s par on each for two stars? Bring your hardest-earned star to Tuesday’s class.\n\nMore practice problems and handouts will be posted here.",
     "crumbs": [
       "Weekly Notes",
       "W01: Introduction"
@@ -1306,7 +1306,7 @@
     "href": "materials/index.html",
     "title": "Materials",
     "section": "",
-    "text": "Interactive artifacts, handouts, and other student-facing files used in lectures and labs. Items are added here as the semester progresses, and are linked from the relevant weekly notes and lab sheets.\n\n\n\n\n\n\n\n\nItem\nWhat it is\nUsed in\n\n\n\n\n(coming soon)\nInteractive tools and handouts will appear here\n—",
+    "text": "Interactive artifacts, handouts, and other student-facing files used in lectures and labs. Items are added here as the semester progresses, and are linked from the relevant weekly notes and lab sheets.\n\n\n\n\n\n\n\n\nItem\nWhat it is\nUsed in\n\n\n\n\n🐢 The Turtle Computer\nYour first programming language: ten words, one turtle, no typing. Six missions in which each new word is invented because a problem demands it — and the reward comes only when the machine’s output matches your intention.\nWeek 01, Lab 01",
     "crumbs": [
       "Materials & Notebooks",
       "Materials"
