@@ -4,6 +4,8 @@ Interactive artifacts, handouts, and other student-facing files used in lectures
 
 | Item | What it is | Used in |
 |---|---|---|
-| 🐢 [The Turtle Computer](turtle-computer.html) | Your first programming language: ten words, one turtle, no typing. Six missions in which each new word is *invented* because a problem demands it — and the reward comes only when the machine's output matches your intention. | [Week 01](../weeks/w01.qmd), Lab 01 |
+| 📽️ [Deck 01 — Logistics](w01-deck-01-logistics.html) | Opening lecture slides: schedule, assessment, tools, and how the course works. (Slide deck — use arrow keys.) | [Week 01](../weeks/w01.qmd) |
+| 📽️ [PAGAL: Programming in the Age of AI](w01-pagal-age-of-ai.html) | The PAGAL column in slide form: the Specify–Verify loop, why programming is becoming a commodity, and Computational X — computation as every discipline's second half. | [Week 01](../weeks/w01.qmd) |
+| 🐢 [The Turtle Computer](w01-turtle-computer.html) | Your first programming language: ten words, one turtle, no typing. Six missions in which each new word is *invented* because a problem demands it — and the reward comes only when the machine's output matches your intention. | [Week 01](../weeks/w01.qmd), Lab 01 |
 
 : {tbl-colwidths="[30,50,20]"}
