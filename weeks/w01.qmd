@@ -23,4 +23,12 @@
 
 ## PAGAL Notes
 
-*PAGAL — Perspectives on Algorithms, Generative AI & Learning — is the week's informal, blog-style column: how this week's material looks in the age of AI. To be posted.*
+*PAGAL — Perspectives on Algorithms, Generative AI & Learning: the week's informal column.*
+
+**On telescopes — and on checking your quotes.**
+
+This week's deck leans on a famous line: *"Computer science is not about machines, in the same way that astronomy is not about telescopes."* The internet will tell you, with great confidence, that Edsger Dijkstra said it (so will framed posters, and so will several AI assistants). We checked. The trail — documented at [Quote Investigator](https://quoteinvestigator.com/2021/04/02/computer-science/) — leads elsewhere: Alan Perlis was making the telescope comparison as early as 1968; the closest early match in print is science writer George Johnson in 1986; and the polished modern form belongs to mathematician **Michael Fellows**, writing with Ian Parberry in the early 1990s. Dijkstra would very likely have *agreed* — but there is no verified record of him saying it.
+
+Why open a programming course's first column with quote forensics? Because this is the whole course in miniature: a claim can be **plausible, widely repeated, and wrong** — and the only defense is to check it against a source. You will spend the semester doing precisely that with programs. Not *"does this code look right?"* but *"does it meet what was asked?"* Not *"the AI said so"* but *"show me the witness."* The habit transfers both ways.
+
+And the line itself? It survives the correction. Whoever said it, you proved it this week without noticing: you programmed a turtle — no silicon in sight — and everything that mattered was the *plan*. The machine is the telescope. Computing is the astronomy.
