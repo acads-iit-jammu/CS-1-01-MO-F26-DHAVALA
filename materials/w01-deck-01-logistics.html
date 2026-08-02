@@ -109,6 +109,14 @@ const SLIDES = [
   li("Underneath the verbs, three habits of mind: <b>decomposition</b> (big → small), <b>abstraction</b> (name it, hide the details, reuse it), and <b>precision</b> (the executor grants no benefit of the doubt)"),
   html("div",'<div class="note">The program is the <i>byproduct</i>. The understanding — problem, plan, and proof that it worked — is the <b>product</b>.</div>'))},
 
+{title:"Our pedagogy: the problem-solving spine", body:()=> e(F,null,
+  html("p",'<span class="big">Programming is, fundamentally, problem solving.</span> The language is the easy part; the problem is the hard part — so the problem gets the attention.'),
+  li("First move, always: <b>question the problem</b>. Ask. Clarify. Push back. <i>“The best solution is no solution at all”</i> — many problems shrink, split, or simply dissolve when stated properly. What survives the questioning <b>is</b> your specification",
+     "<b>Pólya, <i>How to Solve It</i></b> (1945) gives us the loop we run on every problem: <b>understand → plan → carry out → look back</b> — you met it as Specify · Plan · Express · Verify",
+     "<b>Engel, <i>Problem-Solving Strategies</i></b> gives us the moves inside the plan: invariants, working backwards, the extremal principle, case analysis — each will be <i>named</i> when we first use it",
+     "You will meet both as weekly habits, not as homework — every worked example, lab sheet, and exam question runs on this spine"),
+  html("div",'<div class="note">When you are stuck this semester, we will not ask “what code have you written?” We will ask: <b>“what is the problem, and what have you tried?”</b> — Pólya\'s question, and now ours.</div>'))},
+
 {title:"Reading beats writing (yes, really)", body:()=> e(F,null,
   li("Professional programmers <b>read</b> roughly ten times more code than they write — old code, teammates' code, and now, AI's code",
      "Reading is the <b>auditing</b> skill: predict the output, spot the bug, check the program against what was <i>asked</i>",
