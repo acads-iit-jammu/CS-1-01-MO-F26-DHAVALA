@@ -20,8 +20,8 @@ book:
     right: |
       Built with <a href="https://quarto.org/">Quarto</a>.
 
-  site-url: https://acads-iit-jammu.github.io/CS-1-01-MO-F26-DHAVALA
-  repo-url: https://github.com/acads-iit-jammu/CS-1-01-MO-F26-DHAVALA
+  site-url: https://acads-iit-jammu.github.io/csp-f26-dhavala
+  repo-url: https://github.com/acads-iit-jammu/csp-f26-dhavala
   repo-branch: main
 
   chapters:
