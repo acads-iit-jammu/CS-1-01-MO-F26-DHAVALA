@@ -174,10 +174,10 @@
 /* ---------- the machine (pure, testable) ---------- */
 const WORDS={1:"READ",2:"WRITE",3:"MOVE",4:"COUNT",5:"CHECK",0:"STOP"};
 const ACTS={
-  1:{c:'printf("abba");', text:[0,1,1,0], book:{0:"a",1:"b"},
-     blurb:"A world with a two-letter alphabet: the code book says a = 0, b = 1. The text “abba” is therefore stored as 0 1 1 0. Four letters — so the counter starts at 4.",
+  1:{c:'printf("abba");', text:[11,12,12,11], book:{11:"a",12:"b"},
+     blurb:"A world with a two-letter alphabet: the code book says a = 11, b = 12. (We deliberately picked numbers that look nothing like the instruction codes 1–5, so your eyes can't mix up orders and letters.) The text “abba” is therefore stored as 11 12 12 11. Four letters — the counter starts at 4.",
      bookblurb:"The whole alphabet: two entries. Agree on the mapping, and numbers become letters.",
-     samebits:"<b>Look hard at the text: 0 1 1 0.</b> To the display (reading with the book) it is <i>abba</i>. To next week's reader, 0110 is the binary numeral for <i>six</i>. Same four digits — the meaning lives in the reader, not in the bits."},
+     samebits:"<b>Two kinds of cells, one kind of number.</b> Cells holding 1–5 are <i>orders</i> — the machine reads them. Cells holding 11 and 12 are <i>letters</i> — the display reads them. Nothing in the numbers themselves says which is which; only the <b>reader</b> decides. (We could even have chosen a = 0, b = 1 — then the text would be 0 1 1 0, which to yet another reader is the binary numeral <i>six</i>. Codes are choices. More on that in Week 2.)"},
   2:{c:'printf("Hello, world!");', text:"Hello, world!".split("").map(ch=>ch.charCodeAt(0)),
      book:Object.fromEntries([...new Set("Hello, world!".split(""))].map(ch=>[ch.charCodeAt(0), ch===" "?"␣":ch])),
      blurb:"Same five instructions. Not one changed. Only the data grew: counter = 13, and the code book now has 128 entries (humanity agreed on it in 1963 — it is called ASCII). This is all printf(\"Hello, world!\") is.",
