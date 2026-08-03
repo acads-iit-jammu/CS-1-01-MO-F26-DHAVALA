@@ -1,1 +1,1 @@
-Sitemap: https://acads-iit-jammu.github.io/CS-1-01-MO-F26-DHAVALA/sitemap.xml
+Sitemap: https://acads-iit-jammu.github.io/csp-f26-dhavala/sitemap.xml
