@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello, World — All the Way Down · CS-1-01 (MO)</title>
+<style>
+  :root{
+    --blue:#003f87; --blue-dark:#002d63; --blue-mid:#0056b8; --blue-sky:#4da3ff; --blue-pale:#eaf3ff;
+    --ink:#22262a; --paper:#fff; --grey:#f4f6f8; --line:#d7e3f2;
+    --read:#1a7f37; --write:#b35c00; --screen:#07162e; --screentxt:#9fd4ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Roboto,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+       font-size:14.5px;color:var(--ink);background:var(--grey);line-height:1.45}
+  header{background:var(--blue);color:#fff;padding:.7rem 1.2rem}
+  header h1{font-family:"Roboto Slab",Georgia,serif;font-size:1.25rem;margin:0;font-weight:600}
+  header .sub{opacity:.85;font-size:.85rem}
+  main{max-width:1150px;margin:0 auto;padding:12px;display:grid;grid-template-columns:1fr 330px;gap:12px}
+  @media(max-width:920px){main{grid-template-columns:1fr}}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:12px}
+  .card h2{font-family:"Roboto Slab",Georgia,serif;font-size:.95rem;color:var(--blue-dark);
+           margin:.1rem 0 .5rem;border-bottom:2px solid var(--blue-pale);padding-bottom:.25rem}
+  /* C source */
+  .csrc{font-family:"Roboto Mono",monospace;font-size:1.15rem;background:#fbfdff;border:1px solid var(--line);
+        border-radius:8px;padding:10px 14px;color:var(--blue-dark)}
+  .csrc .kw{color:var(--blue-mid)} .csrc .str{color:#b35c00}
+  /* program listing */
+  table.listing{border-collapse:collapse;font-family:"Roboto Mono",monospace;font-size:.82rem;width:100%}
+  table.listing th{background:var(--blue-pale);color:var(--blue-dark);font-family:Roboto,sans-serif;font-size:.72rem}
+  table.listing th,table.listing td{border:1px solid var(--line);padding:3px 8px;text-align:left}
+  table.listing tr.pc td{background:#fff8e1;box-shadow:inset 3px 0 0 var(--blue)}
+  table.listing td.com{color:#78838d;font-family:Roboto,sans-serif;font-size:.78rem}
+  /* string memory strip */
+  .strip{display:flex;gap:4px;flex-wrap:wrap}
+  .mcell{border:1px solid var(--line);border-radius:6px;min-width:44px;text-align:center;background:#fff;padding:2px 3px}
+  .mcell .addr{font-size:.6rem;color:#8aa;display:block}
+  .mcell .val{font-family:"Roboto Mono",monospace;font-size:.85rem;display:block}
+  .mcell .ch{font-size:.75rem;color:var(--blue-mid);display:block;min-height:1em}
+  .mcell.rd{border-color:var(--read);background:#e8f5ec}
+  .mcell.done .ch{color:#bbb}
+  /* registers */
+  .regs{display:flex;gap:10px;flex-wrap:wrap;margin:.5rem 0}
+  .reg{background:var(--blue-pale);border:1px solid var(--line);border-radius:8px;padding:6px 12px;min-width:90px;text-align:center}
+  .reg .name{font-size:.68rem;letter-spacing:.06em;color:var(--blue-dark);font-weight:700;display:block}
+  .reg .val{font-family:"Roboto Mono",monospace;font-size:1.15rem;color:var(--blue)}
+  .reg .as{font-size:.7rem;color:#8aa;display:block}
+  /* controls */
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:.5rem 0}
+  button.big{font:inherit;border:1px solid var(--blue);background:var(--blue);color:#fff;border-radius:8px;
+             padding:7px 16px;cursor:pointer}
+  button.big.ghost{background:#fff;color:var(--blue)}
+  button.big:disabled{opacity:.45;cursor:not-allowed}
+  /* display device */
+  .screen{background:var(--screen);border-radius:10px;border:6px solid #22406e;min-height:96px;padding:12px 14px;
+          font-family:"Roboto Mono",monospace;font-size:1.35rem;color:var(--screentxt);letter-spacing:.03em;
+          word-break:break-all}
+  .screen .cursor{display:inline-block;width:.6em;height:1.15em;background:var(--screentxt);
+          vertical-align:text-bottom;animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .lastcode{font-size:.8rem;color:#556;margin-top:6px;min-height:1.2em}
+  /* code book */
+  .codebook{display:flex;gap:4px;flex-wrap:wrap}
+  .cb{border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:.72rem;background:#fff;
+      font-family:"Roboto Mono",monospace}
+  .cb.hot{background:#fff8e1;border-color:var(--write);font-weight:700}
+  #log{font-size:.78rem;height:180px;overflow-y:auto;background:#fbfdff;border:1px solid var(--line);
+       border-radius:6px;padding:6px 8px;line-height:1.5}
+  #log .op{color:var(--blue);font-weight:600}
+  #log div{border-bottom:1px dashed #edf2f8;padding:1px 0}
+  .note{background:var(--blue-pale);border-left:4px solid var(--blue);padding:.4rem .8rem;
+        border-radius:0 8px 8px 0;font-size:.85rem;margin:.6rem 0}
+  footer{color:#78838d;text-align:center;font-size:.75rem;padding:0 0 14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Hello, World — all the way down</h1>
+  <div class="sub">what really happens when a program prints · one C line, every floor of the building · CS-1-01 (MO), IIT Jammu</div>
+</header>
+
+<main>
+<div><!-- left column -->
+  <section class="card">
+    <h2>Floor 5 — the line you will write in Week 4</h2>
+    <div class="csrc"><span class="kw">printf</span>(<span class="str">"Hello, world!"</span>);</div>
+    <p style="font-size:.85rem;color:#556;margin:.5rem 0 0">One line. Below it, the compiler has already translated it
+    for our Toy Computer — and the text itself is sitting in memory <b>as numbers</b>. Press <b>Step</b> (or Play) and
+    watch the whole descent.</p>
+  </section>
+
+  <section class="card">
+    <h2>Floor 4 — the stored procedure (this is what makes it a <i>computer</i>)</h2>
+    <div class="row">
+      <button class="big" id="stepBtn">Step</button>
+      <button class="big ghost" id="playBtn">▶ Play</button>
+      <button class="big ghost" id="resetBtn">↺ Restart</button>
+      <label style="font-size:.8rem;color:#556">speed <input type="range" id="speed" min="1" max="10" value="4" style="vertical-align:middle"></label>
+    </div>
+    <div class="regs">
+      <div class="reg"><span class="name">PC</span><span class="val" id="pcV">00</span><span class="as">next order</span></div>
+      <div class="reg"><span class="name">ACC</span><span class="val" id="accV">0</span><span class="as" id="accAs">&nbsp;</span></div>
+      <div class="reg"><span class="name">PRINTED</span><span class="val" id="cntV">0</span><span class="as">characters</span></div>
+    </div>
+    <table class="listing" id="listing">
+      <tr><th>cell</th><th>holds</th><th>meaning</th><th></th></tr>
+    </table>
+    <div class="note" id="selfmod">Watch <b>cell 00</b>: the program <i>edits its own reading instruction</i> to walk
+    along the text, one letter per lap — and stops when it meets the <b>0</b> marker. (C calls that marker the
+    <i>null terminator</i>; you will meet it again in Week 10.)</div>
+  </section>
+
+  <section class="card">
+    <h2>Floor 4½ — the text, living in memory as numbers</h2>
+    <div class="strip" id="strip"></div>
+    <p style="font-size:.8rem;color:#556;margin:.5rem 0 0">A string is just neighbouring cells of numbers, with an agreed
+    end-marker. The letters exist only in the eye of the reader.</p>
+  </section>
+</div>
+
+<div><!-- right column -->
+  <section class="card">
+    <h2>The display device</h2>
+    <div class="screen"><span id="scr"></span><span class="cursor"></span></div>
+    <div class="lastcode" id="lastcode">&nbsp;</div>
+    <h2 style="margin-top:.8rem">Its code book (a fragment of ASCII)</h2>
+    <div class="codebook" id="codebook"></div>
+    <p style="font-size:.78rem;color:#556;margin:.5rem 0 0"><b>Why does 72 mean H?</b> Because we all agreed it does —
+    in 1963. A code is a convention. (Tomorrow's question, and Week 2's topic: how numbers themselves are represented.)</p>
+  </section>
+  <section class="card">
+    <h2>The machine's diary</h2>
+    <div id="log"></div>
+  </section>
+  <section class="card" style="font-size:.82rem">
+    <b>The deepest line on this page:</b> the value 72 is a <i>quantity</i> to the adder, the letter <i>H</i> to the
+    display, and half an <i>instruction</i> to the decoder. Same bits — three meanings.
+    <b>Meaning lives in the reader, not in the bits.</b><br><br>
+    And below this floor? Every <span style="font-family:'Roboto Mono',monospace">OUT</span> is a bell-ring story of
+    flip-flops and gates — the <i>Under the Hood</i> pages take you down the remaining stairs.
+  </section>
+</div>
+</main>
+<footer>CS-1-01 (MO), Monsoon 2026 · in a real machine there are more storeys between printf and the pixels (OS, drivers, fonts) — same idea, more floors</footer>
+
+<script>
+"use strict";
+/* ---------- the machine (pure, testable) ---------- */
+const STR = "Hello, world!";
+const STRBASE = 50;
+function freshMem(){
+  const m = new Array(100).fill(0);
+  m[0]=500+STRBASE; // LOOP: LDA 50   (patched as it walks)
+  m[1]=707;         // BRZ 07  -> DONE when marker 0 loaded
+  m[2]=902;         // OUT
+  m[3]=500;         // LDA 00  (load own first instruction)
+  m[4]=108;         // ADD 08  (the constant 1)
+  m[5]=300;         // STA 00  (point it one cell further)
+  m[6]=600;         // BRA 00
+  m[7]=0;           // DONE: HLT
+  m[8]=1;           // ONE: DAT 1
+  for(let i=0;i<STR.length;i++) m[STRBASE+i]=STR.charCodeAt(i);
+  m[STRBASE+STR.length]=0; // the end-marker
+  return m;
+}
+function newM(){ return {mem:freshMem(), pc:0, acc:0, halted:false, out:[], lastRd:-1, lastEvt:null}; }
+function step(M){
+  if(M.halted) return;
+  const at=M.pc, v=M.mem[at]; M.pc=(M.pc+1)%100; M.lastRd=-1;
+  const op=Math.floor(v/100), a=v%100;
+  if(v===0){ M.halted=true; M.lastEvt={t:"HLT",at}; return; }
+  if(v===902){ M.out.push(M.acc); M.lastEvt={t:"OUT",at,code:M.acc}; return; }
+  switch(op){
+    case 5: M.acc=M.mem[a]; M.lastRd=a; M.lastEvt={t:"LDA",at,a,val:M.acc}; return;
+    case 3: M.mem[a]=M.acc; M.lastEvt={t:"STA",at,a,val:M.acc}; return;
+    case 1: M.acc+=M.mem[a]; M.lastRd=a; M.lastEvt={t:"ADD",at,a,val:M.acc}; return;
+    case 7: if(M.acc===0){ M.pc=a; M.lastEvt={t:"BRZ",at,a,taken:true}; } else M.lastEvt={t:"BRZ",at,a,taken:false}; return;
+    case 6: M.pc=a; M.lastEvt={t:"BRA",at,a}; return;
+    default: M.halted=true; M.lastEvt={t:"???",at};
+  }
+}
+function runAll(M,cap=2000){ let n=0; while(!M.halted&&n++<cap) step(M); return n; }
+
+/* ---------- UI ---------- */
+const $=id=>document.getElementById(id);
+let M=newM(), timer=null;
+const PROG=[
+  [0,"LOOP  LDA text","fetch the next character code — this cell edits itself!"],
+  [1,"      BRZ DONE","0 marker? the text has ended"],
+  [2,"      OUT","send the code to the display device"],
+  [3,"      LDA LOOP","load our own first instruction…"],
+  [4,"      ADD ONE","…point it one cell further…"],
+  [5,"      STA LOOP","…and write it back. Program is data!"],
+  [6,"      BRA LOOP","next lap"],
+  [7,"DONE  HLT","done — the whole text has been sent"],
+  [8,"ONE   DAT 1","the constant 1"]];
+const glyph=c=> c===0?"·(end)": c===32?"␣ space": String.fromCharCode(c);
+function note(html){ const d=document.createElement("div"); d.innerHTML=html;
+  const log=$("log"); log.appendChild(d);
+  while(log.children.length>250) log.removeChild(log.firstChild);
+  log.scrollTop=1e9; }
+function buildStatic(){
+  const t=$("listing");
+  PROG.forEach(([a,mn,com])=>{
+    const tr=document.createElement("tr"); tr.id="L"+a;
+    tr.innerHTML=`<td>${String(a).padStart(2,"0")}</td><td id="LV${a}"></td><td>${mn}</td><td class="com">${com}</td>`;
+    t.appendChild(tr); });
+  const cb=$("codebook");
+  const shown=[...new Set(STR.split("").map(c=>c.charCodeAt(0)))].sort((x,y)=>x-y);
+  shown.forEach(c=>{ const d=document.createElement("span"); d.className="cb"; d.id="cb"+c;
+    d.textContent=`${c}=${c===32?"␣":String.fromCharCode(c)}`; cb.appendChild(d); });
+}
+function render(){
+  $("pcV").textContent=String(M.pc).padStart(2,"0");
+  $("accV").textContent=M.acc;
+  $("accAs").innerHTML = (M.acc>=32&&M.acc<127)? `as text: “${glyph(M.acc)}”` : "&nbsp;";
+  $("cntV").textContent=M.out.length;
+  PROG.forEach(([a])=>{ const tr=$("L"+a);
+    tr.className=(a===M.pc&&!M.halted)?"pc":"";
+    $("LV"+a).textContent=String(M.mem[a]).padStart(3,"0"); });
+  const strip=$("strip"); strip.innerHTML="";
+  const ptr=M.mem[0]%100;
+  for(let i=0;i<=STR.length;i++){
+    const ad=STRBASE+i, c=M.mem[ad];
+    const d=document.createElement("div");
+    d.className="mcell"+(ad===M.lastRd?" rd":"")+(ad<ptr?" done":"");
+    d.innerHTML=`<span class="addr">${ad}</span><span class="val">${String(c).padStart(3,"0")}</span><span class="ch">${glyph(c)}</span>`;
+    strip.appendChild(d);
+  }
+  $("scr").textContent=M.out.map(c=>String.fromCharCode(c)).join("");
+  document.querySelectorAll(".cb").forEach(e=>e.className="cb");
+  const last=M.out[M.out.length-1];
+  if(last!==undefined && $("cb"+last)) $("cb"+last).className="cb hot";
+  $("stepBtn").disabled=M.halted; $("playBtn").disabled=M.halted;
+}
+function narrate(){
+  const ev=M.lastEvt; if(!ev) return;
+  const c="cell "+String(ev.at).padStart(2,"0");
+  if(ev.t==="LDA"&&ev.a>=STRBASE) note(`<span class="op">LDA</span> from ${c}: fetched <b>${ev.val}</b> from cell ${ev.a} — a number. Is it a letter? Not yet. Nobody has read it as one.`);
+  else if(ev.t==="LDA") note(`<span class="op">LDA</span>: loaded cell ${ev.a} (=${ev.val}) — this time the "data" is an <i>instruction</i>. Same cells, different reader.`);
+  else if(ev.t==="OUT") note(`<span class="op">OUT</span>: sent <b>${ev.code}</b> to the display. The display consults its code book: ${ev.code} = “${glyph(ev.code)}”. <i>Now</i> it is a letter.`);
+  else if(ev.t==="ADD") note(`<span class="op">ADD</span>: ACC is now ${ev.val} — the reading instruction, pointed one cell further.`);
+  else if(ev.t==="STA") note(`<span class="op">STA</span>: wrote ${ev.val} back into cell 00. The program just <b>edited itself</b>.`);
+  else if(ev.t==="BRZ"&&ev.taken) note(`<span class="op">BRZ</span>: ACC is 0 — the end-marker! Jumping to DONE.`);
+  else if(ev.t==="BRZ") note(`<span class="op">BRZ</span>: ACC is not 0 — more text to print, carry on.`);
+  else if(ev.t==="BRA") note(`<span class="op">BRA</span>: back to the top of the loop.`);
+  else if(ev.t==="HLT") note(`<span class="op">HLT</span> — finished. 13 characters, ${M.stepsTaken||"~100"} small steps, zero magic.`);
+}
+let steps=0;
+function doStep(){ if(M.halted) return; step(M); steps++; M.stepsTaken=steps; narrate(); render(); if(M.halted) stop(); }
+function stop(){ if(timer){clearInterval(timer);timer=null;$("playBtn").textContent="▶ Play";} }
+function play(){ if(timer){stop();return;} $("playBtn").textContent="⏸ Pause";
+  timer=setInterval(doStep, 1100/ +$("speed").value); }
+function reset(){ stop(); M=newM(); steps=0; $("log").innerHTML="";
+  note("restart — the procedure and the text are back in memory; the display is blank. Nothing will happen until the machine follows the orders, one by one.");
+  render(); }
+$("stepBtn").addEventListener("click",()=>{stop();doStep();});
+$("playBtn").addEventListener("click",play);
+$("resetBtn").addEventListener("click",reset);
+$("speed").addEventListener("input",()=>{ if(timer){stop();play();} });
+buildStatic(); reset();
+</script>
+</body>
+</html>
