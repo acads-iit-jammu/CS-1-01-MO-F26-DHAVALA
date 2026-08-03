@@ -81,37 +81,44 @@ const SLIDES = [
   html("div",'<div class="note">Humans think computationally · machines compute · <b>programming is the handoff between the two</b>.</div>'))},
 
 {title:"A puzzle: one of these is a computer. One is not.", body:()=> e(F,null,
-  table(["The adder (Under the Hood)","The Toy Computer"],[
-    ["computes — you watched carries ripple through real gates","computes too — every step visible"],
-    ["can do <b>one thing</b>, forever: add. Its ability is frozen into its wiring","can be <b>re-taught endlessly</b>: countdown, largest-of-list, multiply…"],
-    ["to change its job you must <i>rebuild</i> it","to change its job you <b>store a new procedure in its memory</b>"]]),
+  table(["A fixed adding machine","A programmable machine"],[
+    ["computes: give it two numbers, out comes the sum","computes too — step by visible step"],
+    ["can do <b>one thing</b>, forever. Its ability is frozen into its wiring","can be <b>re-taught endlessly</b>: count down, find the largest, multiply, print…"],
+    ["to change its job you must <i>rebuild the hardware</i>","to change its job you <b>store a new procedure in its memory</b> — and it follows it"]]),
   html("p",'<span class="big">The dividing line is the <b>stored program</b>.</span> A computer is a computing machine whose <i>procedure is data</i> — written into the same memory it works on. That single idea is the whole revolution.'))},
 
 {title:"So what is any computer made of?", body:()=> e(F,null,
   li("<b>Memory</b> — numbered cells holding numbers, nothing more",
      "<b>Data</b> — numbers the procedure works <i>on</i>",
      "<b>Instructions</b> — numbers the machine reads as orders. <i>Same cells as the data</i> — the machine cannot tell them apart, and that is a feature",
-     "<b>The orchestrator</b> — the part that keeps fetch → decode → execute going. In the Toy Computer it is the PC and the ritual; in Under the Hood you met it undisguised: <i>two flip-flops and a bell</i>"),
-  html("div",'<div class="note">And below all four: gates, then switches. You have personally built every floor. Nothing is magic.</div>'))},
+     "<b>The orchestrator</b> — the small control circuit that keeps the ritual going: fetch the next order → carry it out → repeat"),
+  html("div",'<div class="note">And below all four: logic gates, and below those, switches — ordinary physical parts, all the way down. Nothing is magic.</div>'))},
 
 {title:"Computational thinking — the habit", body:()=> e(F,null,
   html("p",'<span class="big">Before any code: shape the problem so a computation can solve it.</span>'),
   li("<b>Decompose</b> — cut the big problem into small ones",
-     "<b>Abstract</b> — name a thing, hide its details, reuse it (you did this when a mission became “draw a stair, three times”)",
+     "<b>Abstract</b> — name a thing, hide its details, reuse it",
      "<b>Find the pattern</b> — “this is the same move, again” is the birth of every loop",
      "<b>Make it a procedure</b> — steps so precise that anyone — or anything — can follow them"),
   html("p",'This habit is discipline-free: it works on marks moderation, alloy testing, bus scheduling. C is merely where we practise it.'))},
 
-{title:"Live: printf(\"Hello, world!\") — all the way down", body:()=> e(F,null,
-  li("One future C line, already compiled for the Toy Computer — <b>and the text itself lives in memory as numbers</b>",
-     "A 9-cell procedure walks the text: fetch code → send to display → point the fetch <i>one cell further</i> — the program edits itself as it runs",
-     "It stops at the <b>0</b> end-marker (C will call it the <i>null terminator</i>)",
-     "The display holds the <b>code book</b>: it receives 72 and draws H — 13 characters, 94 steps, zero magic"),
-  html("div",'<div class="note">Watch for the deepest line on that page: 72 is a <i>quantity</i> to the adder, an <i>H</i> to the display, half an <i>instruction</i> to the decoder. <b>Meaning lives in the reader, not in the bits.</b></div>'))},
+{title:"What does printf actually do?", body:()=> e(F,null,
+  html("p",'Take a tiny world: a two-letter alphabet, coded <b>a = 11, b = 12</b>. Then the text “abba” lives in memory as <span style="font-family:\'Roboto Mono\',monospace"><b>11&nbsp;12&nbsp;12&nbsp;11</b></span>, with a counter set to 4. And printf translates to a five-word procedure:'),
+  table(["Code","Word","What it does"],[
+    ["1","<b>READ</b>","copy the letter under the finger into the hand"],
+    ["2","<b>WRITE</b>","send the hand to the display, which looks the number up in its <i>code book</i>"],
+    ["3","<b>MOVE</b>","slide the finger one cell right"],
+    ["4","<b>COUNT</b>","tick the counter down"],
+    ["5","<b>CHECK</b>","counter at zero? stop — else back to the top"]]),
+  html("p",'Twenty small steps later, the display says <b>abba</b>. And <span class="big">printf("Hello, world!") is the <i>same five words</i></span> — only the counter says 13 and the code book has 128 entries (ASCII, agreed in 1963: <b>72 = H</b>). Scale lives in the data.'))},
+
+{title:"The deepest idea of the week", body:()=> e(F,null,
+  e("div",{className:"quote"},"Meaning lives in the reader,",e("br"),"not in the bits.",
+    e("small",null,"In that memory, 1–5 are orders (the machine reads them) and 11–12 are letters (the display reads them). Nothing in the numbers says which is which — only the reader decides. Instructions, data, text: one substance, many readings.")))},
 
 {title:"Tomorrow's homework is a question", body:()=> e(F,null,
   e("div",{className:"quote"},"Why does 72 mean H?",
-    e("small",null,"Because in 1963, people agreed it would. Codes are conventions — which raises the real question: how do the numbers themselves live inside the machine? That is Week 2: number systems. Meanwhile: finish your six Turtle missions. 🐢")))},
+    e("small",null,"Because in 1963, people agreed it would. Codes are conventions — which raises the real question: how do the numbers themselves live inside the machine? That is Week 2: number systems. Meanwhile: finish this week's missions on the course site.")))},
 
 ];
 
