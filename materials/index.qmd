@@ -7,7 +7,7 @@ Interactive artifacts, handouts, and other student-facing files used in lectures
 | 📽️ [Deck 01 — Logistics](w01-deck-01-logistics.html) | Opening lecture slides: schedule, assessment, tools, and how the course works. (Slide deck — use arrow keys.) | [Week 01](../weeks/w01.qmd) |
 | 📽️ [PAGAL: Programming in the Age of AI](w01-pagal-age-of-ai.html) | The PAGAL column in slide form: the Specify–Verify loop, why programming is becoming a commodity, and Computational X — computation as every discipline's second half. | [Week 01](../weeks/w01.qmd) |
 | 📽️ [Deck 02 — What is a Computer?](w01-deck-02-what-is-a-computer.html) | Lecture 2 slides: computing vs computer vs programming vs computational thinking; the stored-program dividing line. | [Week 01](../weeks/w01.qmd) |
-| 🖨️ [Hello, World — all the way down](w01-hello-under-the-hood.html) | Watch a future C line run on the Toy Computer: a self-modifying loop walks the text (stored as numbers!) to a display with a code book. Meaning lives in the reader. | [Week 01](../weeks/w01.qmd) |
+| 🖨️ [Hello, World — all the way down](w01-hello-under-the-hood.html) | printf, honestly: five instructions (read · write · move · count · check), a finger, and a code book. Act 1 prints “abba” in a two-letter world; Act 2 grows the book to ASCII and prints Hello, world! — same program, bigger data. | [Week 01](../weeks/w01.qmd) |
 | 🐢 [The Turtle Computer](w01-turtle-computer.html) | Your first programming language: ten words, one turtle, no typing. Six missions in which each new word is *invented* because a problem demands it — and the reward comes only when the machine's output matches your intention. | [Week 01](../weeks/w01.qmd), Lab 01 |
 
 : {tbl-colwidths="[30,50,20]"}
