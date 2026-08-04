@@ -81,10 +81,11 @@ const SLIDES = [
   html("div",'<div class="note">Humans think computationally · machines compute · <b>programming is the handoff between the two</b>.</div>'))},
 
 {title:"A puzzle: one of these is a computer. One is not.", body:()=> e(F,null,
-  table(["A fixed adding machine","A programmable machine"],[
-    ["computes: give it two numbers, out comes the sum","computes too — step by visible step"],
-    ["can do <b>one thing</b>, forever. Its ability is frozen into its wiring","can be <b>re-taught endlessly</b>: count down, find the largest, multiply, print…"],
-    ["to change its job you must <i>rebuild the hardware</i>","to change its job you <b>store a new procedure in its memory</b> — and it follows it"]]),
+  html("p",'Picture two machines on a desk. On the left, an <b>adding machine</b>: two dials for the numbers, wheels and levers inside, a window that shows the sum. On the right, a box of numbered <b>memory cells</b> with a small engine that reads them one by one and does what they say.'),
+  table(["The adding machine","The memory-and-engine box"],[
+    ["computes: set the dials, out comes the sum","computes too, one small step at a time"],
+    ["can do <b>one thing</b>, forever. Its ability is frozen into its gears","can be <b>re-taught endlessly</b>: count down, find the largest, multiply, print — just by changing what the cells hold"],
+    ["to change its job you must <i>rebuild the machine</i>","to change its job you <b>write a new procedure into its memory</b> — and it follows it"]]),
   html("p",'<span class="big">The dividing line is the <b>stored program</b>.</span> A computer is a computing machine whose <i>procedure is data</i> — written into the same memory it works on. That single idea is the whole revolution.'))},
 
 {title:"So what is any computer made of?", body:()=> e(F,null,
@@ -100,7 +101,15 @@ const SLIDES = [
      "<b>Abstract</b> — name a thing, hide its details, reuse it",
      "<b>Find the pattern</b> — “this is the same move, again” is the birth of every loop",
      "<b>Make it a procedure</b> — steps so precise that anyone — or anything — can follow them"),
-  html("p",'This habit is discipline-free: it works on marks moderation, alloy testing, bus scheduling. C is merely where we practise it.'))},
+  html("p",'No computer required. In fact, you have been doing all four your whole life — two proofs on the next slide.'))},
+
+{title:"You already think computationally", body:()=> e(F,null,
+  table(["The move","🥕 Buying vegetables","🏖️ Planning a holiday"],[
+    ["<b>Decompose</b>","the errand splits: make a list → walk to the shop → pick each item → pay → walk home","the trip splits: destination → dates → budget → tickets → stay → day plans → packing"],
+    ["<b>Abstract</b>","“the list” — one page standing in for the whole kitchen's needs; “the usual way” hides every turn of the walk","“the budget” — one number standing in for a thousand decisions; “Day 2: old town” hides all its logistics"],
+    ["<b>Pattern</b>","for <i>each</i> item: find the stall → check freshness and price → into the bag. Same move, repeated — a loop over the list","every day has the same skeleton: breakfast → sight → lunch → sight → back. A loop, with “which sight” as the changing part"],
+    ["<b>Procedure</b>","hand the list and cash to your sibling — dinner still happens. <i>That</i> is the test: the plan works without you","an itinerary the family can follow while you nap on the bus — and a check at the end: bookings confirmed, bags packed"]]),
+  html("div",'<div class="note">This course does not teach you a new way of thinking — it takes a habit you already have, makes it <b>precise</b>, and teaches you to hand the procedure to a machine.</div>'))},
 
 {title:"What does printf actually do?", body:()=> e(F,null,
   html("p",'Take a tiny world: a two-letter alphabet, coded <b>a = 11, b = 12</b>. Then the text “abba” lives in memory as <span style="font-family:\'Roboto Mono\',monospace"><b>11&nbsp;12&nbsp;12&nbsp;11</b></span>, with a counter set to 4. And printf translates to a five-word procedure:'),
@@ -116,9 +125,9 @@ const SLIDES = [
   e("div",{className:"quote"},"Meaning lives in the reader,",e("br"),"not in the bits.",
     e("small",null,"In that memory, 1–5 are orders (the machine reads them) and 11–12 are letters (the display reads them). Nothing in the numbers says which is which — only the reader decides. Instructions, data, text: one substance, many readings.")))},
 
-{title:"Tomorrow's homework is a question", body:()=> e(F,null,
+{title:"A question to take home", body:()=> e(F,null,
   e("div",{className:"quote"},"Why does 72 mean H?",
-    e("small",null,"Because in 1963, people agreed it would. Codes are conventions — which raises the real question: how do the numbers themselves live inside the machine? That is Week 2: number systems. Meanwhile: finish this week's missions on the course site.")))},
+    e("small",null,"Because in 1963, people agreed it would. Codes are conventions — which raises the real question: how do the numbers themselves live inside the machine? That is Week 2: number systems. Meanwhile: this week's missions are on the course site.")))},
 
 ];
 
